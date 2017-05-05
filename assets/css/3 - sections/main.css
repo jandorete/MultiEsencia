@@ -1,0 +1,199 @@
+.wrapper {
+  width: 100%;
+  height: 2000px;
+  position: absolute;
+}
+
+main {
+  transition: margin 0.5s;
+  width: calc(100% - 300px);
+  height: auto;
+  position: absolute;
+  clear: both;
+}
+
+#sidebar-right {
+  width: 300px;
+
+  height: 100%;
+  position: relative;
+  top: 0;
+  right: 0;
+  float: right;
+
+  transition: 0.5s;
+  overflow-x: hidden;
+
+  -webkit-box-shadow: inset -1px 0px 11px 1px rgba(0,0,0,0.21);
+  -moz-box-shadow: inset -1px 0px 11px 1px rgba(0,0,0,0.21);
+  box-shadow: inset -1px 0px 11px 1px rgba(0,0,0,0.21);
+}
+
+.sidebar-right-close {
+  margin-right: 0 !important;
+}
+
+.categoria-sidebar-right {
+  height: 45px;
+  width: 200px;
+  color: #fff;
+  padding: 0;
+  padding-left: 0.5rem;
+  font-size: 1.2em;
+}
+
+.shape-invertido{
+  width: 200px;
+  height:45px;
+  color:white;
+  position:relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center
+
+}
+.shape-invertido:before{
+  content:"";
+  width:0px;
+  height:0px;
+  border-top:22.5px solid transparent;
+  border-right: 22.5px solid #efefef;
+  border-bottom:22.5px solid transparent;
+  position:absolute;
+
+  margin-left: 1rem;
+  right: 0;
+  top:0px;
+}
+
+#sidebar-right .app {
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.participa-foro {
+  padding: 0.5rem;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.participa-foro textarea {
+  border: 1px solid;
+  color: #000;
+  max-width: 250px;
+  width: 250px;
+  height: 130px;
+}
+
+.participa-foro-botones input[type='button'], .participa-foro-botones input[type='submit'] {
+  padding: 0.3rem;
+  width: 125px;
+  outline: 0;
+  border: 0;
+  margin: 0.5rem auto;
+}
+
+.mas-buscado {
+  width: 250px;
+  text-align: justify;
+  margin: 0 auto;
+}
+
+.publicidad-sidebar-right {
+  padding: 0.5rem 0;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.red {
+  width: 300px;
+  height:45px;
+  color: #000000;
+  position:relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.red-cifra {
+  height: 100%;
+  width: 90px;
+  color: #ffffff;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: center;
+  font-size: 1.5rem;
+
+}
+
+.red-text {
+  width: 150px;
+  font-size: 1.5rem;
+  text-align: left;
+  padding-left: 1rem;
+}
+
+.red-youtube {
+  height: 100%;
+  width: 50px;
+  background-image: url('../../img/iconosredes/youtube.png');
+  background-position: right;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 0 4px 4px 0;
+}
+
+.red-facebook {
+  height: 100%;
+  width: 50px;
+  background-image: url('../../img/iconosredes/facebook.png');
+  background-position: right;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 0 4px 4px 0;
+}
+
+.red-google {
+  height: 100%;
+  width: 50px;
+  background-image: url('../../img/iconosredes/google.png');
+  background-position: right;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 0 4px 4px 0;
+}
+
+.red-twitter {
+  height: 100%;
+  width: 50px;
+  background-image: url('../../img/iconosredes/twitter.png');
+  background-position: right;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 0 4px 4px 0;
+}
+
+.red-instagram {
+  height: 100%;
+  width: 50px;
+  background-image: url('../../img/iconosredes/instagram.png');
+  background-position: right;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 0 4px 4px 0;
+}
+
+.red-pinterest {
+  height: 100%;
+  width: 50px;
+  background-image: url('../../img/iconosredes/pinterest.png');
+  background-position: right;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 0 4px 4px 0;
+}

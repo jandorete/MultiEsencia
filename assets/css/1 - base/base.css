@@ -1,0 +1,52 @@
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
+#sidebar::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0);
+	background-color: #fff;
+
+}
+
+#sidebar::-webkit-scrollbar
+{
+	width: 6px;
+	background-color: #fff;
+}
+
+#sidebar::-webkit-scrollbar-thumb
+{
+	background-color: #fff;
+}
+
+#sidebar::scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0);
+	background-color: #fff;
+
+}
+
+#sidebar::scrollbar
+{
+	width: 6px;
+	background-color: #fff;
+}
+
+#sidebar::scrollbar-thumb
+{
+	background-color: #fff;
+}
+
+hr {
+  background-color: rgb(234, 234, 234);
+  background-color: #eaeaea;
+  width: 100%;
+  border: 0;
+  height: 3px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
