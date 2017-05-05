@@ -15,7 +15,7 @@
 	<div class="wrapper">
         
         <?php include 'header.php'; ?>
-        <?php include 'navbar1.php'; ?>
+        <?php include 'navbar.php'; ?>
 		
 
     <main id="main">
@@ -51,7 +51,7 @@ todos?</header>
 			</div>
 		</main>
 
-		<?php include 'navbar2.php'; ?>
+		<?php include 'sidebar.php'; ?>
 
 		</div>
 
