@@ -1,4 +1,5 @@
-<aside id="sidebar-right" class="sidebar flex justify-start items-start bgcolor-sidebar">
+<!--<div class="col-md-2">-->
+    <aside id="sidebar-right" class="sidebar flex justify-start items-start bgcolor-sidebar">
 			<section>
 				<a href="#" class="categoria-sidebar-right bgcolor-tutecnomundo">
 					<div class="shape-invertido bgcolor-tutecnomundo">Síguenos en Redes</div>
@@ -43,3 +44,4 @@
 				</div>
 			</section>
 		</aside>
+<!--    </div>-->
