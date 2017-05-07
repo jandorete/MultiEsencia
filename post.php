@@ -112,7 +112,7 @@
 						</div>
 						<div>
 							<a href="#">
-							  <i style="color:#e2e2e2;" class=`-fa fa-3x fa-share-alt" aria-hidden="true"></i>
+							  <i style="color:#e2e2e2;" class="fa fa-3x fa-share-alt" aria-hidden="true"></i>
 							</a>
 						</div>
 					</div>
