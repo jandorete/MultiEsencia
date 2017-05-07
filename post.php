@@ -24,55 +24,31 @@
 
         <main id="main">
             <div style="max-width:1100px" class="container">
+			<!-- IMAGEN DESTACADA -->
                 <div class="row">
-                    <div style="max-height: 80vh;" class="col-md-12">
-                        <a style="
-						display: block;
-						position: relative;
-						width: 100%;
-						height: 0;
-						padding: 46.66666667% 0 0 0;
-						overflow: hidden;" href="#">
-                            <img style="
-							position: absolute;
-							display: block;
-							width: 100%;
-							height: 100%;
-							overflow: hidden;
-							object-fit: cover;
-							left: 0;
-							right: 0;
-							top: 0;
-							bottom: 0;
-							margin: auto;" alt="Prueba" src="https://www.tutecnomundo.com/wp-content/uploads/2017/04/xiaomi-mi-6-precio.jpg" />
+                    <div class="col-md-12 imagen-destacada">
+                        <a href="#">
+							<h1>Titulo de la noticia</h1>
+                            <img alt="Prueba" src="https://www.tutecnomundo.com/wp-content/uploads/2017/04/xiaomi-mi-6-precio.jpg" />
                         </a>
                     </div>
                 </div>
+				<!-- SIDEBAR NOTICIA -->
                 <div class="row">
-                    <!-- SIDEBAR NOTICIA -->
-                    <div style="background:; padding:2rem;" class="col-md-4">
-                        <div style="
-						display: flex;
-						justify-content: flex-end;
-						align-items: center;" class="info-autor">
-                            <div style="
-							padding-right: 2rem;">
+                    <div class="col-md-4">
+                        <div class="info-autor">
+                            <div class="info-autor-content">
                                 <p style="text-align:right;">Autor</p>
                                 <p>Antonio Jesus Serna</p>
                             </div>
                             <div>
                                 <a href="#">
-                                    <img style="border-radius: 50%;" class="media-object" src="https://www.placecage.com/55/55" alt="...">
+                                    <img class="foto-autor" src="https://www.placecage.com/55/55" alt="...">
                                 </a>
                             </div>
                         </div>
-                        <div style="
-						display: flex;
-						justify-content: flex-end;
-						padding-top:2rem;
-						align-items: center;" class="info-autor">
-                            <div style="
-							padding-right: 2rem;">
+                        <div class="info-autor">
+                            <div class="info-autor-content">
                                 <p>Leido por 26.793 personas</p>
                             </div>
                             <div>
@@ -81,13 +57,8 @@
                                 </a>
                             </div>
                         </div>
-                        <div style="
-						display: flex;
-						justify-content: flex-end;
-						align-items: center;
-						padding-top:2rem;" class="info-autor">
-                            <div style="
-							padding-right: 2rem;">
+                        <div class="info-autor">
+                            <div class="info-autor-content">
                                 <p>Comentado por 2 personas</p>
                             </div>
                             <div>
@@ -168,7 +139,9 @@
                             </div>
                         </div>
                         <!-- BREADCRUMBS -->
-                        <div style="padding:20px 0 20px 0rem;">Publicado en <a style="color:#65B853;" href="/">TuTecnoMundo</a> > <a style="color:#65B853;" href="#">Samsung</a> > <a style="color:#65B853;" href="/">Galaxy S7</a></div>
+                        <div style="padding:20px 0 20px 0rem;">
+							Publicado en <a style="color:#65B853;" href="/">TuTecnoMundo</a> > <a style="color:#65B853;" href="#">Samsung</a> > <a style="color:#65B853;" href="/">Galaxy S7</a>
+						</div>
                         <!-- CUERPO NOTICIA -->
                         <div>
                             <p>Una de las novedades más destacadas del nuevo Galaxy S7 es la protección IP68. Esta acreditación nos garantiza una protección muy fuerte contra el polvo (lo otorga el número 6) y una inmersión completa y continuada en agua (lo otorga el número 8), que nos permite mantener el smartphone hasta 30 minutos bajo 1 metro de profundidad sin que este sufra daño alguno.</p>
@@ -183,8 +156,8 @@
                                 <i class="fa fa-bullhorn fa-fw" aria-hidden="true"></i>&nbsp; Anúnciate</a>
                             </div>
                         </div>
-                        <h2>Recomendado por el autor</h2>
                         <div class="row">
+                        <h2>Recomendado por el autor</h2>
                             <div class="col-md-4">
                                 <p>Titulo de noticia</p>
                                 <a style="
@@ -368,41 +341,6 @@
 						<div style="border: 1px solid #E2E2E2; height: 1px; margin: 30px 0; width: 100%;" class="separador"></div>
 						
 						<!-- COMENTARIO DE USUAIRO -->
-						<div style="padding-bottom:2rem;" class="row">
-                            <div style="height:auto;"; class="col-md-4">
-								<div>
-									<div style="
-									display: flex;
-									justify-content: flex-end;
-									align-items: center;" class="info-autor">
-										<div style="
-										padding-right: 2rem;">
-											<p style="text-align:right;">
-												Alvaro Martín<br>
-												<span style="font-size:10px;">Hace unos segundos</span>
-											</p>
-											<div style="display:flex; justify-content:space-around;">
-												12<a href="#" style="color:#65B853; text-decoration:none; position:relative;float:left;float:right; "class="fa fa-sort-asc fa-1x fa-fw" aria-hidden="true"></a>
-												12<a href="#" style="color:red; text-decoration:none; position:relative;float:right; float:right; "class="fa fa-sort-desc fa-1x fa-fw" aria-hidden="true"></a>
-											</div>
-										</div>
-										<div>
-											<a href="#">
-												<img style="border-radius: 50%;" class="media-object" src="https://www.placecage.com/55/55" alt="...">
-											</a>
-										</div>
-									</div>
-									<p>
-										<a href="#" style="color:#65B853; font-size:10px; float:right;">Responder</a>
-									</p>
-								</div>
-                            </div>
-                            <div style="height:auto;" class="col-md-8">
-                            <p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-							</p>    
-                            </div>
-                        </div>
 						<div style="padding-bottom:2rem;" class="row">
                             <div style="height:auto;"; class="col-md-4">
 								<div>
