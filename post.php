@@ -16,8 +16,9 @@
     <div class="wrapper">
         <?php include 'header.php'; ?>
         <?php include 'navbar.php'; ?>
-        <main id="main">
-            <div style="max-width:1100px" class="container">
+            <div style="width:1380px;" class="container">
+            <div style="margin:0 auto; class="row">
+            <div class="col-md-9">
 			<!-- IMAGEN DESTACADA -->
                 <div class="row">
                     <div class="col-md-12 imagen-destacada">
@@ -244,10 +245,11 @@
 						
                     </div>
                 </div>
-        </main>
-
-        <?php include 'sidebar.php'; ?>
-
+			</div>
+			<div class="col-md-3">
+			<?php include 'sidebar.php'; ?>
+			</div>
+			</div>
         </div>
 
         <script type="text/javascript" src="assets/js/jquery.js"></script>
