@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -11,17 +10,12 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
 </head>
-
 <body>
 
     <div class="wrapper">
-
         <?php include 'header.php'; ?>
         <?php include 'navbar.php'; ?>
-
-
         <main id="main">
             <div style="max-width:1100px" class="container">
 			<!-- IMAGEN DESTACADA -->
@@ -33,8 +27,8 @@
                         </a>
                     </div>
                 </div>
-				<!-- SIDEBAR NOTICIA -->
                 <div class="row">
+					<!-- SIDEBAR NOTICIA -->
                     <div class="col-md-4">
                         <div class="info-autor">
                             <div class="info-autor-content">
@@ -53,7 +47,7 @@
                             </div>
                             <div>
                                 <a href="#">
-                                    <i style="color:#e2e2e2;" class="fa fa-3x fa-eye" aria-hidden="true"></i>
+                                    <i class="fa fa-3x fa-eye" aria-hidden="true"></i>
                                 </a>
                             </div>
                         </div>
@@ -63,33 +57,24 @@
                             </div>
                             <div>
                                 <a href="#">
-                                    <i style="color:#e2e2e2;" class="fa fa-3x fa-commenting" aria-hidden="true"></i>
+                                    <i class="fa fa-3x fa-commenting" aria-hidden="true"></i>
                                 </a>
                             </div>
                         </div>
                         <hr align="center" width="50%">
-                        <div style="
-						display: flex;
-						justify-content: flex-end;
-						align-items: center;
-						padding-top:4rem;" class="info-autor">
-                            <div style="
-							padding-right: 2rem;">
+						<br>
+                        <div class="info-autor">
+                            <div class="info-autor-content">
                                 <p>Compartido por 2 personas</p>
                             </div>
                             <div>
                                 <a href="#">
-                                    <i style="color:#e2e2e2;" class="fa fa-3x fa-share-alt" aria-hidden="true"></i>
+                                    <i class="fa fa-3x fa-share-alt" aria-hidden="true"></i>
                                 </a>
                             </div>
                         </div>
-                        <div style="
-						display: flex;
-						justify-content: flex-end;
-						align-items: center;
-						padding-top:4rem;" class="info-autor">
-                            <div style="
-							padding-right: 2rem;">
+                        <div class="info-autor">
+                            <div class="info-autor-content">
                                 <p style="color:#3b5998;">Facebook</p>
                             </div>
                             <div>
@@ -98,13 +83,8 @@
                                 </a>
                             </div>
                         </div>
-                        <div style="
-						display: flex;
-						justify-content: flex-end;
-						align-items: center;
-						padding-top:4rem;" class="info-autor">
-                            <div style="
-							padding-right: 2rem;">
+                        <div class="info-autor">
+                            <div class="info-autor-content">
                                 <p style="color:#d62d20;">Google</p>
                             </div>
                             <div>
@@ -113,13 +93,8 @@
                                 </a>
                             </div>
                         </div>
-                        <div style="
-						display: flex;
-						justify-content: flex-end;
-						align-items: center;
-						padding-top:4rem;" class="info-autor">
-                            <div style="
-							padding-right: 2rem;">
+                        <div class="info-autor">
+                            <div class="info-autor-content">
                                 <p style="color:#00aced;">Twitter</p>
                             </div>
                             <div>
@@ -129,7 +104,6 @@
                             </div>
                         </div>
                     </div>
-
                     <!-- CONTENEDOR NOTICIA -->
                     <div style="padding:2rem;" class="col-md-8">
                         <!-- BANNER PUBLI -->
@@ -139,8 +113,8 @@
                             </div>
                         </div>
                         <!-- BREADCRUMBS -->
-                        <div style="padding:20px 0 20px 0rem;">
-							Publicado en <a style="color:#65B853;" href="/">TuTecnoMundo</a> > <a style="color:#65B853;" href="#">Samsung</a> > <a style="color:#65B853;" href="/">Galaxy S7</a>
+                        <div class="breadcrumbs">
+							Publicado en <a href="/">TuTecnoMundo</a> > <a href="#">Samsung</a> > <a href="#">Galaxy S7</a>
 						</div>
                         <!-- CUERPO NOTICIA -->
                         <div>
@@ -160,72 +134,20 @@
                         <h2>Recomendado por el autor</h2>
                             <div class="col-md-4">
                                 <p>Titulo de noticia</p>
-                                <a style="
-								display: block;
-								position: relative;
-								width: 100%;
-								height: 0;
-								padding: 46.66666667% 0 0 0;
-								overflow: hidden;" href="#">
-                                    <img style="
-									position: absolute;
-									display: block;
-									width: 100%;
-									width: 100%;
-									height: 100%;
-									overflow: hidden;
-									object-fit: cover;
-									left: 0;
-									right: 0;
-									top: 0;
-									bottom: 0;
-									margin: auto;" alt="Prueba" src="https://www.tutecnomundo.com/wp-content/uploads/2017/04/xiaomi-mi-6-precio.jpg" />
+                                <a class="titulo-noticia-reciente" href="#">
+                                    <img class="img-noticia-reciente" alt="Prueba" src="https://www.tutecnomundo.com/wp-content/uploads/2017/04/xiaomi-mi-6-precio.jpg" />
                                 </a>
                             </div>
                             <div class="col-md-4">
                                 <p>Titulo de noticia</p>
-                                <a style="
-								display: block;
-								position: relative;
-								width: 100%;
-								height: 0;
-								padding: 46.66666667% 0 0 0;
-								overflow: hidden;" href="#">
-                                    <img style="
-									position: absolute;
-									display: block;
-									width: 100%;
-									height: 100%;
-									overflow: hidden;
-									object-fit: cover;
-									left: 0;
-									right: 0;
-									top: 0;
-									bottom: 0;
-									margin: auto;" alt="Prueba" src="https://www.tutecnomundo.com/wp-content/uploads/2017/04/xiaomi-mi-6-precio.jpg" />
+                                <a class="titulo-noticia-reciente" href="#">
+                                    <img class="img-noticia-reciente" alt="Prueba" src="https://www.tutecnomundo.com/wp-content/uploads/2017/04/xiaomi-mi-6-precio.jpg" />
                                 </a>
                             </div>
                             <div class="col-md-4">
                                 <p>Titulo de noticia</p>
-                                <a style="
-								display: block;
-								position: relative;
-								width: 100%;
-								height: 0;
-								padding: 46.66666667% 0 0 0;
-								overflow: hidden;" href="#">
-                                    <img style="
-									position: absolute;
-									display: block;
-									width: 100%;
-									height: 100%;
-									overflow: hidden;
-									object-fit: cover;
-									left: 0;
-									right: 0;
-									top: 0;
-									bottom: 0;
-									margin: auto;" alt="Prueba" src="https://www.tutecnomundo.com/wp-content/uploads/2017/04/xiaomi-mi-6-precio.jpg" />
+                                <a class="titulo-noticia-reciente" href="#">
+                                    <img class="img-noticia-reciente" alt="Prueba" src="https://www.tutecnomundo.com/wp-content/uploads/2017/04/xiaomi-mi-6-precio.jpg" />
                                 </a>
                             </div>
                         </div>
@@ -233,71 +155,20 @@
                         <div class="row">
                             <div class="col-md-4">
                                 <p>Titulo de noticia</p>
-                                <a style="
-								display: block;
-								position: relative;
-								width: 100%;
-								height: 0;
-								padding: 46.66666667% 0 0 0;
-								overflow: hidden;" href="#">
-                                    <img style="
-									position: absolute;
-									display: block;
-									width: 100%;
-									height: 100%;
-									overflow: hidden;
-									object-fit: cover;
-									left: 0;
-									right: 0;
-									top: 0;
-									bottom: 0;
-									margin: auto;" alt="Prueba" src="https://www.tutecnomundo.com/wp-content/uploads/2017/04/xiaomi-mi-6-precio.jpg" />
+                                <a class="titulo-noticia-reciente" href="#">
+                                    <img class="img-noticia-reciente" alt="Prueba" src="https://www.tutecnomundo.com/wp-content/uploads/2017/04/xiaomi-mi-6-precio.jpg" />
                                 </a>
                             </div>
                             <div class="col-md-4">
                                 <p>Titulo de noticia</p>
-                                <a style="
-								display: block;
-								position: relative;
-								width: 100%;
-								height: 0;
-								padding: 46.66666667% 0 0 0;
-								overflow: hidden;" href="#">
-                                    <img style="
-									position: absolute;
-									display: block;
-									width: 100%;
-									height: 100%;
-									overflow: hidden;
-									object-fit: cover;
-									left: 0;
-									right: 0;
-									top: 0;
-									bottom: 0;
-									margin: auto;" alt="Prueba" src="https://www.tutecnomundo.com/wp-content/uploads/2017/04/xiaomi-mi-6-precio.jpg" />
+                                <a class="titulo-noticia-reciente" href="#">
+                                    <img class="img-noticia-reciente" alt="Prueba" src="https://www.tutecnomundo.com/wp-content/uploads/2017/04/xiaomi-mi-6-precio.jpg" />
                                 </a>
                             </div>
                             <div class="col-md-4">
                                 <p>Titulo de noticia</p>
-                                <a style="
-								display: block;
-								position: relative;
-								width: 100%;
-								height: 0;
-								padding: 46.66666667% 0 0 0;
-								overflow: hidden;" href="#">
-                                    <img style="
-									position: absolute;
-									display: block;
-									width: 100%;
-									height: 100%;
-									overflow: hidden;
-									object-fit: cover;
-									left: 0;
-									right: 0;
-									top: 0;
-									bottom: 0;
-									margin: auto;" alt="Prueba" src="https://www.tutecnomundo.com/wp-content/uploads/2017/04/xiaomi-mi-6-precio.jpg" />
+                                <a class="titulo-noticia-reciente" href="#">
+                                    <img class="img-noticia-reciente" alt="Prueba" src="https://www.tutecnomundo.com/wp-content/uploads/2017/04/xiaomi-mi-6-precio.jpg" />
                                 </a>
                             </div>
                         </div>
@@ -341,27 +212,23 @@
 						<div style="border: 1px solid #E2E2E2; height: 1px; margin: 30px 0; width: 100%;" class="separador"></div>
 						
 						<!-- COMENTARIO DE USUAIRO -->
-						<div style="padding-bottom:2rem;" class="row">
-                            <div style="height:auto;"; class="col-md-4">
+						<div class="comentarios row">
+                            <div class="col-md-4">
 								<div>
-									<div style="
-									display: flex;
-									justify-content: flex-end;
-									align-items: center;" class="info-autor">
-										<div style="
-										padding-right: 2rem;">
-											<p style="text-align:right;">
+									<div class="info-usuario">
+										<div>
+											<p class="nombre-usuario">
 												Alvaro Martín<br>
-												<span style="font-size:10px;">Hace unos segundos</span>
+												<span>Hace unos segundos</span>
 											</p>
-											<div style="display:flex; justify-content:space-around;">
-												12<a href="#" style="color:#65B853; text-decoration:none; position:relative;float:left;float:right; "class="fa fa-sort-asc fa-1x fa-fw" aria-hidden="true"></a>
-												12<a href="#" style="color:red; text-decoration:none; position:relative;float:right; float:right; "class="fa fa-sort-desc fa-1x fa-fw" aria-hidden="true"></a>
+											<div class="puntuacion-usuario">
+												12<a href="#" class="positivo fa fa-sort-asc fa-1x fa-fw" aria-hidden="true"></a>
+												12<a href="#" class="negativo fa fa-sort-desc fa-1x fa-fw" aria-hidden="true"></a>
 											</div>
 										</div>
 										<div>
 											<a href="#">
-												<img style="border-radius: 50%;" class="media-object" src="https://www.placecage.com/55/55" alt="...">
+												<img class="foto-usuario" src="https://www.placecage.com/55/55" alt="...">
 											</a>
 										</div>
 									</div>
@@ -370,12 +237,11 @@
 									</p>
 								</div>
                             </div>
-                            <div style="height:auto;" class="col-md-8">
-                            <p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-							</p>    
+                            <div class="col-md-8">
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>    
                             </div>
                         </div>
+						
                     </div>
                 </div>
         </main>

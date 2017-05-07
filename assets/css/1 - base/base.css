@@ -53,8 +53,9 @@ hr {
 
 
 /*************** PAGINA POST ****************/
+
 /*************************/
-/* IMAGEN DESTACADA POST */
+/**IMAGEN DESTACADA POST**/
 /*************************/
 .imagen-destacada{
 	max-height: 80vh;
@@ -89,8 +90,9 @@ hr {
 	bottom: 0;
 	margin: auto;
 }
+
 /*************************/
-/* IMAGEN AUTOR DEL POST */
+/**IMAGEN AUTOR DEL POST**/
 /*************************/
 .info-autor{
 	padding-top:2rem;
@@ -103,4 +105,99 @@ hr {
 }
 .info-autor-content{
 	padding-right: 2rem;
+}
+.info-autor div a i{
+	color:#E2E2E2;
+}
+.info-autor div a i:hover{
+	color:#cacaca;
+}
+/*************************/
+/*BREADCRUMBS************/
+/*************************/
+.breadcrumbs{
+	padding:20px 0 20px 0rem;
+}
+.breadcrumbs a{
+	color:#65B853;
+	text-decoration:none;	
+}
+.breadcrumbs a:hover{
+	color:#76CE63;
+	text-decoration:none;	
+}
+/*************************/
+/*ARTICULOS RECIENTES*****/
+/*************************/
+.titulo-noticia-reciente{	
+	display: block;
+	position: relative;
+	width: 100%;
+	height: 0;
+	padding: 46.66666667% 0 0 0;
+	overflow: hidden;
+}
+.img-noticia-reciente{	
+	position: absolute;
+	display: block;
+	width: 100%;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	object-fit: cover;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+}
+
+
+
+
+
+/*************************/
+/**COMENTARIOS USUARIO****/
+/*************************/
+.info-usuario{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+.info-usuario>div:first-of-type{
+	padding-right: 2rem;
+}
+.foto-usuario{
+	border-radius: 50%;
+}
+.info-usuario-content{
+	padding-right: 2rem;
+}
+.nombre-usuario{
+	text-align:right;
+}
+.nombre-usuario>span{
+	font-size:10px;
+}
+.puntuacion-usuario{
+	display:flex; 
+	justify-content:space-around;
+}
+.puntuacion-usuario .positivo{
+	color:#65B853; 
+	text-decoration:none; 
+	position:relative;
+	float:left;
+	float:right; 
+}
+.puntuacion-usuario .negativo{
+	color:red; 
+	text-decoration:none; 
+	position:relative;
+	float:left;
+	float:right; 
+}
+.comentarios{
+	padding-bottom:1.5rem;
+	height:auto;
 }
