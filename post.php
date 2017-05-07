@@ -8,7 +8,9 @@
 		<link rel="stylesheet" href="assets/css/main.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>   
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>  
+        
 	</head>
   <body>
       
@@ -19,7 +21,7 @@
 		
 
 	<main id="main">
-		<div style="max-width:1200px" class="container">
+		<div style="max-width:1100px" class="container">
 			<div class="row">
 				<div style="max-height: 80vh;" class="col-md-12">
 					<a style="
@@ -77,7 +79,7 @@
 						</div>
 						<div>
 							<a href="#">
-							  <img style="border-radius: 50%;" class="media-object" src="https://www.placecage.com/55/55" alt="...">
+							  <i style="color:#e2e2e2;" class="fa fa-3x fa-eye" aria-hidden="true"></i>
 							</a>
 						</div>
 					</div>
@@ -93,7 +95,7 @@
 						</div>
 						<div>
 							<a href="#">
-							  <img style="border-radius: 50%;" class="media-object" src="https://www.placecage.com/55/55" alt="...">
+							  <i style="color:#e2e2e2;" class="fa fa-3x fa-commenting" aria-hidden="true"></i>
 							</a>
 						</div>
 					</div>
@@ -106,11 +108,11 @@
 						class="info-autor">
 						<div style="
 							padding-right: 2rem;">
-							<p>Comentado por 2 personas</p>
+							<p>Compartido por 2 personas</p>
 						</div>
 						<div>
 							<a href="#">
-							  <img style="border-radius: 50%;" class="media-object" src="https://www.placecage.com/55/55" alt="...">
+							  <i style="color:#e2e2e2;" class=`-fa fa-3x fa-share-alt" aria-hidden="true"></i>
 							</a>
 						</div>
 					</div>
@@ -121,7 +123,7 @@
 					<!-- BANNER PUBLI -->
 					<div style="background:black; height:150px; width:100%;"></div>
 					<!-- BREADCRUMBS -->
-					<div style="padding:20px 0 20px 0rem;" >Publicado en TuTecnoMundo > Samsung > Galaxy S7</div>
+					<div style="padding:20px 0 20px 0rem;" >Publicado en <a style="color:#65B853;" href="/">TuTecnoMundo</a> > <a style="color:#65B853;" href="#">Samsung</a> > <a style="color:#65B853;" href="/">Galaxy S7</a></div>
 					<!-- CUERPO NOTICIA -->
 					<div>
 					<p>Una de las novedades más destacadas del nuevo Galaxy S7 es la protección IP68. Esta
