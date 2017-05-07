@@ -16,9 +16,9 @@
     <div class="wrapper">
         <?php include 'header.php'; ?>
         <?php include 'navbar.php'; ?>
-            <div style="width:1380px;" class="container">
-            <div style="margin:0 auto; class="row">
-            <div class="col-md-9">
+            <div class="container">
+            <div class="row">
+            <div class="col-lg-9 col-md-8 col-sm-12">
 			<!-- IMAGEN DESTACADA -->
                 <div class="row">
                     <div class="col-md-12 imagen-destacada">
@@ -30,11 +30,11 @@
                 </div>
                 <div class="row">
 					<!-- SIDEBAR NOTICIA -->
-                    <div class="col-md-4">
+                    <div class="col-md-3">
                         <div class="info-autor">
                             <div class="info-autor-content">
                                 <p style="text-align:right;">Autor</p>
-                                <p>Antonio Jesus Serna</p>
+                                <p>Antonio Serna</p>
                             </div>
                             <div>
                                 <a href="#">
@@ -106,7 +106,7 @@
                         </div>
                     </div>
                     <!-- CONTENEDOR NOTICIA -->
-                    <div style="padding:2rem;" class="col-md-8">
+                    <div style="padding:2rem;" class="col-md-9">
                         <!-- BANNER PUBLI -->
                         <div style="background:black; height:150px; width:100%;">
                             <div style="background:#e2e2e2; position:relative; top:120px; width:105px; height:30px; padding:5px;">
@@ -246,7 +246,7 @@
                     </div>
                 </div>
 			</div>
-			<div class="col-md-3">
+			<div class="col-lg-3 col-md-2">
 			<?php include 'sidebar.php'; ?>
 			</div>
 			</div>
