@@ -1,54 +1,128 @@
 <!DOCTYPE html>
 <html>
 	<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 		<title>TuTecnoMundo - Apps y Juegos Android - Noticias android y top de las mejores apps, juegos y personalizacion para android. Saca el máximo a tu movil / celular o tablet en TuTecnoMundo.</title>
-		<link rel="stylesheet" href="assets/css/main.css">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <?php include 'head.php'; ?>
 	</head>
     <body>
+        <div class="container">
+            <?php include 'header.php'; ?>
+            <?php include 'navbar.php'; ?>
 
-        <?php include 'header.php'; ?>
-        <?php include 'navbar.php'; ?>
-
-        <main id="main">
-            <div class="container">
-    <!--			<div class="container" style="with: 100%;">-->
-    <!--				<div class="section group">-->
+            <div class="container-fluid">
                 <div class="row">
-                    <div class="col-md-3 col-sm-12">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <header style="background-color: white; height: 50px;" class="normal flex justify-center items-center">¿Por qué no triunfan las tablets
-    Android?</header>
-                                <article style="height: 100px; background-image: url(assets/img/articulos/1.jpeg); background-position: center; background-size: cover; background-repeat: none;"/>
+                     <div class="col-lg-9 col-md-8 col-sm-12">
+                         
+                         <section>
+                            <div class="row m2">
+                                <div class="col-lg-9 col-lg-push-3 col-xs-12">
+                                    <div class="row m2">
+                                        <div id="mycarousel" class="carousel slide" data-ride="carousel">
+                                            <div class="carousel-inner">
+                                                <div class="item active">
+                                                    <img src="assets/img/articulos/1.jpeg" alt="" class="img-responsive">
+                                                    <div class="carousel-caption">¿Por qué no triunfan las tablets Android?</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-3 col-lg-pull-9 col-xs-12">
+                                    <div class="row m2">
+                                        <div class="col-lg-12 col-xs-6">
+                                            <header>¿Por qué no triunfan las tablets
+                Android?</header>
+                                            <img src="assets/img/articulos/2.jpg" class="img-responsive"/>
+                                        </div>
+                                        <div class="col-lg-12 col-xs-6">
+                                            <header>¿Por qué no triunfan las tablets
+                Android?</header>
+                                            <img src="assets/img/articulos/3.jpg" class="img-responsive"/>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-    <!--
-                        </div>
-                        <div class="col-md-6" style="height: 200px;">-->
-                            <div class="col-md-12">
-                                <header style="background-color: white; height: 50px;" class="normal flex justify-center items-center">¿Por qué no triunfan las tablets
-    Android?</header>
-                                <article style="height: 100px; background-image: url(assets/img/articulos/1.jpeg); background-position: center; background-size: cover; background-repeat: none;"/>
+                            <div class="row m2">
+                                <div style="width: 100%; height: 90px; background: #428bca; color: #fff; line-height: 90px; text-align: center; ">AD</div>
                             </div>
-                        </div>
+                         </section>
+                            
+                         <section>
+                            <div class="row m2">
+                                <div class="col-lg-9 col-lg-push-3 col-xs-12">
+                                    <div class="row m2">
+                                        <div id="mycarousel" class="carousel slide" data-ride="carousel">
+                                            <div class="carousel-inner">
+                                                <div class="item active">
+                                                    <img src="assets/img/articulos/1.jpeg" alt="" class="img-responsive">
+                                                    <div class="carousel-caption">¿Por qué no triunfan las tablets Android?</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-3 col-lg-pull-9 col-xs-12">
+                                    <div class="row m2">
+                                        <div class="col-lg-12 col-xs-6">
+                                            <header>¿Por qué no triunfan las tablets
+                Android?</header>
+                                            <img src="assets/img/articulos/2.jpg" class="img-responsive"/>
+                                        </div>
+                                        <div class="col-lg-12 col-xs-6">
+                                            <header>¿Por qué no triunfan las tablets
+                Android?</header>
+                                            <img src="assets/img/articulos/3.jpg" class="img-responsive"/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row m2">
+                                <div style="width: 100%; height: 90px; background: #428bca; color: #fff; line-height: 90px; text-align: center; ">AD</div>
+                            </div>
+                         </section>
+                            
+                         <section>
+                            <div class="row m2">
+                                <div class="col-lg-9 col-lg-push-3 col-xs-12">
+                                    <div class="row m2">
+                                        <div id="mycarousel" class="carousel slide" data-ride="carousel">
+                                            <div class="carousel-inner">
+                                                <div class="item active">
+                                                    <img src="assets/img/articulos/1.jpeg" alt="" class="img-responsive">
+                                                    <div class="carousel-caption">¿Por qué no triunfan las tablets Android?</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-3 col-lg-pull-9 col-xs-12">
+                                    <div class="row m2">
+                                        <div class="col-lg-12 col-xs-6">
+                                            <header>¿Por qué no triunfan las tablets
+                Android?</header>
+                                            <img src="assets/img/articulos/2.jpg" class="img-responsive"/>
+                                        </div>
+                                        <div class="col-lg-12 col-xs-6">
+                                            <header>¿Por qué no triunfan las tablets
+                Android?</header>
+                                            <img src="assets/img/articulos/3.jpg" class="img-responsive"/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row m2">
+                                <div style="width: 100%; height: 90px; background: #428bca; color: #fff; line-height: 90px; text-align: center; ">AD</div>
+                            </div>
+                         </section>
+                             
                     </div>
-                    
-                    <div class="col-md-9 col-sm-12">
-                        <div class="row">
-                            <article style="height: 300px; background-image: url(assets/img/articulos/1.jpeg); background-position: center; background-size: cover; background-repeat: none;"/>
-                        </div>
-                    </div>
+                    <?php include 'sidebar.php'; ?>
                 </div>
             </div>
-        </main>
-
-        <?php include 'sidebar.php'; ?>
-
-        <script type="text/javascript" src="assets/js/jquery.js"></script>
+        <?php include 'footer.php'; ?>
+        </div>
     </body>
 </html>
