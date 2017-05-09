@@ -6,8 +6,8 @@
     </head>
     <body>
 
+        <?php include 'header.php'; ?>
         <div class="container">
-            <?php include 'header.php'; ?>
             <?php include 'navbar.php'; ?>
             <div class="container">
                 <div class="row">
@@ -126,19 +126,19 @@
                             </div>
                             <div class="row">
                             <h2>Recomendado por el autor</h2>
-                                <div class="col-md-4">
+                                <div class="col-md-4 col-xs-6">
                                     <p>Titulo de noticia</p>
                                     <a class="titulo-noticia-reciente" href="#">
                                         <img class="img-noticia-reciente" alt="Prueba" src="https://www.tutecnomundo.com/wp-content/uploads/2017/04/xiaomi-mi-6-precio.jpg" />
                                     </a>
                                 </div>
-                                <div class="col-md-4">
+                                <div class="col-md-4 col-xs-6">
                                     <p>Titulo de noticia</p>
                                     <a class="titulo-noticia-reciente" href="#">
                                         <img class="img-noticia-reciente" alt="Prueba" src="https://www.tutecnomundo.com/wp-content/uploads/2017/04/xiaomi-mi-6-precio.jpg" />
                                     </a>
                                 </div>
-                                <div class="col-md-4">
+                                <div class="col-md-4 col-xs-6">
                                     <p>Titulo de noticia</p>
                                     <a class="titulo-noticia-reciente" href="#">
                                         <img class="img-noticia-reciente" alt="Prueba" src="https://www.tutecnomundo.com/wp-content/uploads/2017/04/xiaomi-mi-6-precio.jpg" />
@@ -147,19 +147,19 @@
                             </div>
                             <div style="border: 1px solid #E2E2E2; height: 1px; margin: 30px 0; width: 100%;" class="separador"></div>
                             <div class="row">
-                                <div class="col-md-4">
+                                <div class="col-md-4 col-xs-6">
                                     <p>Titulo de noticia</p>
                                     <a class="titulo-noticia-reciente" href="#">
                                         <img class="img-noticia-reciente" alt="Prueba" src="https://www.tutecnomundo.com/wp-content/uploads/2017/04/xiaomi-mi-6-precio.jpg" />
                                     </a>
                                 </div>
-                                <div class="col-md-4">
+                                <div class="col-md-4 col-xs-6">
                                     <p>Titulo de noticia</p>
                                     <a class="titulo-noticia-reciente" href="#">
                                         <img class="img-noticia-reciente" alt="Prueba" src="https://www.tutecnomundo.com/wp-content/uploads/2017/04/xiaomi-mi-6-precio.jpg" />
                                     </a>
                                 </div>
-                                <div class="col-md-4">
+                                <div class="col-md-4 col-xs-6">
                                     <p>Titulo de noticia</p>
                                     <a class="titulo-noticia-reciente" href="#">
                                         <img class="img-noticia-reciente" alt="Prueba" src="https://www.tutecnomundo.com/wp-content/uploads/2017/04/xiaomi-mi-6-precio.jpg" />
@@ -207,7 +207,7 @@
 
                             <!-- COMENTARIO DE USUAIRO -->
                             <div class="comentarios row">
-                                <div class="col-md-4">
+                                <div class="col-md-4 col-xs-12">
                                     <div>
                                         <div class="info-usuario">
                                             <div>

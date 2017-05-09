@@ -69,7 +69,7 @@ hr {
 	overflow: hidden;
 }
 .imagen-destacada>a>h1{
-	z-index: 999;
+	z-index: 88;
 	position: absolute;
 	top: 5px;
 	padding: 2rem;

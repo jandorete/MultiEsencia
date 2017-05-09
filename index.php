@@ -5,8 +5,8 @@
         <?php include 'head.php'; ?>
 	</head>
     <body>
+        <?php include 'header.php'; ?>
         <div class="container">
-            <?php include 'header.php'; ?>
             <?php include 'navbar.php'; ?>
 
             <div class="container-fluid">
