@@ -1,22 +1,14 @@
-<div class="row">
-    <div class="col-xs-12">
         <nav id="nav" class="nav-container bgcolor-multiesencia">
             <ul id="nav-ul" class="inline-flex flex-row flex-wrap items-center justify-between">
                 <li class="nav-link" >
                         <a href="javascript:void(0)" id="menu-btn" ><i id="menu-btn--icon" class="fa fa-bars fa-lg" aria-hidden="true"></i> Menú</a>
                     </li>
-                <li class="nav-link">
-                        <a href="javascript:void(0)" id="search-btn"><i class="fa fa-search fa-lg" aria-hidden="true"></i> Buscar</a>
-                    </li>
                 <li class="nav-logo">
                         <a href="#"><img id="nav-logo-img" src="assets/img/logo-multiesencia.png" alt=""/> <span id="nav-logo-text" class="nav-logo-text">Multiesencia</span></a>
                     </li>
                 <li class="nav-link">
-                        <a href="#">Foro <i class="fa fa-comment fa-lg fa-flip-horizontal" aria-hidden="true"></i></a>
+                        <a href="javascript:void(0)" id="search-btn"><i class="fa fa-search fa-lg" aria-hidden="true"></i> Buscar</a>
                     </li>
-                <li class="nav-link">
-                        <a href="#">Iniciar Sesión <i class="fa fa-sign-in fa-lg" aria-hidden="true"></i> </a>
-                </li>
             </ul>
 
             <div id="multiconos" class="multiconos-container bgcolor-multiconos" style="display: none;">
@@ -79,5 +71,3 @@
                 </ul>
             </div>
         </nav>
-    </div>
-</div>
