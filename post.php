@@ -9,7 +9,7 @@
         <div class="container">
             <?php include 'navbar.php'; ?>
 
-            <div class="container">
+            <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-9 col-md-8 col-sm-12">
                 <!-- IMAGEN DESTACADA -->
@@ -245,5 +245,4 @@
 			<?php include 'footer.php'; ?>
         </div>
     </body>
-
 </html>

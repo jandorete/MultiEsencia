@@ -55,13 +55,12 @@ hr {
 /********CONTAINER********/
 /*************************/
 
-.container-fluid{
-padding-top:25px !important;
+.container {
+    padding-top: 50px;
 }
-
-
-
-
+.container-fluid{
+/*    padding-top: 25px !important;*/
+}
 
 
 /*************** PAGINA POST ****************/
