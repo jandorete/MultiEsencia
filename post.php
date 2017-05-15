@@ -102,7 +102,7 @@
                         <div style="padding:2rem;" class="col-md-9">
                             <!-- BANNER PUBLI -->
                             <div style="background:black; height:150px; width:100%;">
-                                <div style="background:#e2e2e2; position:relative; top:120px; width:105px; height:30px; padding:5px;">
+                                <div style="background:#e2e2e2; position:relative; top:120px; width:115px; height:30px; padding:5px;">
                                     <i class="fa fa-bullhorn fa-fw" aria-hidden="true"></i>&nbsp; Anúnciate</a>
                                 </div>
                             </div>
@@ -120,7 +120,7 @@
                             </div>
                             <!-- BANNER PUBLI 2 -->
                             <div style="background:black; height:150px; width:100%;">
-                                <div style="background:#e2e2e2; position:relative; top:120px; width:105px; height:30px; padding:5px;">
+                                <div style="background:#e2e2e2; position:relative; top:120px; width:115px; height:30px; padding:5px;">
                                     <i class="fa fa-bullhorn fa-fw" aria-hidden="true"></i>&nbsp; Anúnciate</a>
                                 </div>
                             </div>
@@ -168,7 +168,7 @@
                             </div>
                             <br><br>
                             <div style="background:black; height:150px; width:100%;">
-                                <div style="background:#e2e2e2; position:relative; top:120px; width:105px; height:30px; padding:5px;">
+                                <div style="background:#e2e2e2; position:relative; top:120px; width:115px; height:30px; padding:5px;">
                                     <i class="fa fa-bullhorn fa-fw" aria-hidden="true"></i>&nbsp; Anúnciate</a>
                                 </div>
                             </div>
