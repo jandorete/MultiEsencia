@@ -51,7 +51,7 @@
                             
                              <!-- anuncio -->
                              <div class="" style="background:black; height:150px; width:100%;">
-                                <div style="background:#e2e2e2; position:relative; top:120px; width:105px; height:30px; padding:5px;">
+                                <div style="background:#e2e2e2; position:relative; top:120px; width:115px; height:30px; padding:5px;">
                                     <i class="fa fa-bullhorn fa-fw" aria-hidden="true"></i>&nbsp; Anúnciate
                                 </div>
                             </div>                             
