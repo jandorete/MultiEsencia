@@ -4,7 +4,7 @@
                         <a href="javascript:void(0)" id="menu-btn" ><i id="menu-btn--icon" class="fa fa-bars fa-lg" aria-hidden="true"></i> Menú</a>
                     </li>
                 <li class="nav-logo">
-                        <a href="#"><img src="assets/img/Iconos Temáticas/D TuTecnoMundo.png" alt="TuTecnoMundo" height="80" /> TuTecnoMundo</a>
+                        <a href="index.php"><img src="assets/img/Iconos Temáticas/D TuTecnoMundo.png" alt="TuTecnoMundo" height="80" /> TuTecnoMundo</a>
                     </li>
                 <li class="nav-link">
                         <a href="javascript:void(0)" id="search-btn"><i class="fa fa-search fa-lg" aria-hidden="true"></i> Buscar</a>

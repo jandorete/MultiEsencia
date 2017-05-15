@@ -1,7 +1,6 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <link rel="stylesheet" href="dist/selection-sharer.css" />
->>>>>>> origin/master
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 <meta property="fb:app_id" content="123456789" />
 <meta property="og:url" content="http://your.url/to/share" />
