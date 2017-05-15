@@ -84,7 +84,7 @@ $("#sidebar-nav").addClass("justify-center");
   }
 
 });
-
+/*
 $(document).ready(function(){
   var scroll_pos = 0;
   $(document).scroll(function() {
@@ -106,7 +106,7 @@ $(document).ready(function(){
           $("#nav-logo-text").addClass("nav-logo-text");
       }
   });
-});
+});*/
 
 var lastScrollTop = 0;
 $(window).scroll(function (event) {

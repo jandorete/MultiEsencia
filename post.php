@@ -5,10 +5,10 @@
         <?php include 'head.php'; ?>
     </head>
     <body>
-
         <?php include 'header.php'; ?>
         <div class="container">
             <?php include 'navbar.php'; ?>
+
             <div class="container">
                 <div class="row">
                     <div class="col-lg-9 col-md-8 col-sm-12">
@@ -242,6 +242,7 @@
                     <?php include 'sidebar.php'; ?>
                 </div>
             </div>
+			<?php include 'footer.php'; ?>
         </div>
     </body>
 
