@@ -17,18 +17,18 @@
                             <div class="row m3">
                                 <div class="col-lg-8 col-lg-push-4 col-xs-12">
                                     <article>
-                                        <header style="position:absolute; top:10px; right:20px; color:white;">¿Por qué no triunfan las tablets Android?</header>
+                                        <header style="position:absolute; top:10px; right:20px; color:white;">Lorem ipsum dolor sit amet</header>
                                         <img src="assets/img/articulos/1.jpeg" class="img-responsive">
                                     </article>
                                 </div>
 
                                 <div class="col-lg-4 col-lg-pull-8 col-xs-12">
                                     <article class="col-lg-12 col-xs-6">
-                                        <header>¿Por qué no triunfan las tablets Android?</header>
+                                        <header>Lorem ipsum dolor sit amet</header>
                                         <img src="assets/img/articulos/2.jpg" class="img-responsive"/>
                                     </article>
                                     <article class="col-lg-12 col-xs-6">
-                                        <header>¿Por qué no triunfan las tablets Android?</header>
+                                        <header>Lorem ipsum dolor sit amet</header>
                                         <img src="assets/img/articulos/3.jpg" class="img-responsive"/>
                                     </article>
                                 </div>
@@ -36,15 +36,15 @@
                             
                             <div class="row m3">
                                 <article class="col-md-4">
-                                    <header>¿Por qué no triunfan las tablets Android?</header>
+                                    <header>Lorem ipsum dolor sit amet</header>
                                     <img src="assets/img/articulos/4.jpg" class="img-responsive"/>
                                 </article>
                                 <article class="col-md-4">
-                                    <header>¿Por qué no triunfan las tablets Android?</header>
+                                    <header>Lorem ipsum dolor sit amet</header>
                                     <img src="assets/img/articulos/5.jpg" class="img-responsive"/>
                                 </article>
                                 <article class="col-md-4">
-                                    <header>¿Por qué no triunfan las tablets Android?</header>
+                                    <header>Lorem ipsum dolor sit amet</header>
                                     <img src="assets/img/articulos/6.jpg" class="img-responsive"/>
                                 </article>
                             </div>
