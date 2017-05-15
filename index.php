@@ -17,35 +17,35 @@
                             <div class="row m3">
                                 <div class="col-lg-8 col-lg-push-4 col-xs-12">
                                     <article>
-                                        <header style="position:absolute; top:10px; right:20px; color:white;">Lorem ipsum dolor sit amet</header>
-                                        <img src="assets/img/articulos/1.jpeg" class="img-responsive">
+                                        <header style="position:absolute; top:10px; right:20px; color:white;"><h2><a href="post.php">Lorem ipsum dolor sit amet</a></h2></header>
+                                        <a href="post.php"><img src="assets/img/articulos/1.jpeg" class="img-responsive"></a>
                                     </article>
                                 </div>
 
                                 <div class="col-lg-4 col-lg-pull-8 col-xs-12">
                                     <article class="col-lg-12 col-sm-6 col-xs-12">
-                                        <header>Lorem ipsum dolor sit amet</header>
-                                        <img src="assets/img/articulos/2.jpg" class="img-responsive"/>
+                                        <header><h2><a href="post.php">Lorem ipsum dolor sit amet</a></h2></header>
+                                        <a href="post.php"><img src="assets/img/articulos/2.jpg" class="img-responsive"></a>
                                     </article>
                                     <article class="col-lg-12 col-sm-6 col-xs-12">
-                                        <header>Lorem ipsum dolor sit amet</header>
-                                        <img src="assets/img/articulos/3.jpg" class="img-responsive"/>
+                                        <header><h2><a href="post.php">Lorem ipsum dolor sit amet</a></h2></header>
+                                        <a href="post.php"><img src="assets/img/articulos/6.jpg" class="img-responsive"></a>
                                     </article>
                                 </div>
                             </div>
                             
                             <div class="row m3">
                                 <article class="col-sm-4 col-xs-12">
-                                    <header>Lorem ipsum dolor sit amet</header>
-                                    <img src="assets/img/articulos/4.jpg" class="img-responsive"/>
+                                    <header><h2><a href="post.php">Lorem ipsum dolor sit amet</a></h2></header>
+                                        <a href="post.php"><img src="assets/img/articulos/3.jpg" class="img-responsive"></a>
                                 </article>
                                 <article class="col-sm-4 col-xs-12">
-                                    <header>Lorem ipsum dolor sit amet</header>
-                                    <img src="assets/img/articulos/5.jpg" class="img-responsive"/>
+                                    <header><h2><a href="post.php">Lorem ipsum dolor sit amet</a></h2></header>
+                                        <a href="post.php"><img src="assets/img/articulos/4.jpg" class="img-responsive"></a>
                                 </article>
                                 <article class="col-sm-4 col-xs-12">
-                                    <header>Lorem ipsum dolor sit amet</header>
-                                    <img src="assets/img/articulos/6.jpg" class="img-responsive"/>
+                                    <header><h2><a href="post.php">Lorem ipsum dolor sit amet</a></h2></header>
+                                        <a href="post.php"><img src="assets/img/articulos/5.jpg" class="img-responsive"></a>
                                 </article>
                             </div>
                             
