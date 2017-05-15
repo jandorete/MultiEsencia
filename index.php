@@ -58,7 +58,7 @@
                         </section>
                          
                     </div>
-                    <?php //include 'sidebar.php'; ?>
+                    <?php include 'sidebar.php'; ?>
                 </div>
             </div>
         <?php include 'footer.php'; ?>
