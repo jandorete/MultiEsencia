@@ -106,7 +106,7 @@ hr {
 /**IMAGEN AUTOR DEL POST**/
 /*************************/
 .info-autor{
-	padding-top:2rem;
+	padding-top:1.5rem;
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
@@ -115,8 +115,14 @@ hr {
 	border-radius: 50%;
 }
 .info-autor-content{
-	padding-right: 2rem;
+	padding-right: 1rem;
+	text-align:right;
 }
+
+.texto-autor{
+	font-size:14px;
+}
+
 .info-autor div a i{
 	color:#E2E2E2;
 }

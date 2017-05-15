@@ -26,8 +26,8 @@
                         <div class="col-md-3">
                             <div class="info-autor">
                                 <div class="info-autor-content">
-                                    <p style="text-align:right;">Autor</p>
-                                    <p>Antonio Serna</p>
+                                    <p class="texto-autor" style="text-align:right;"><b>Autor</b></p>
+                                    <p class="texto-autor">Antonio Serna</p>
                                 </div>
                                 <div>
                                     <a href="#">
@@ -37,7 +37,7 @@
                             </div>
                             <div class="info-autor">
                                 <div class="info-autor-content">
-                                    <p>Leido por 26.793 personas</p>
+                                    <p class="texto-autor">Leido por 26.793 personas</p>
                                 </div>
                                 <div>
                                     <a href="#">
@@ -47,7 +47,7 @@
                             </div>
                             <div class="info-autor">
                                 <div class="info-autor-content">
-                                    <p>Comentado por 2 personas</p>
+                                    <p class="texto-autor">Comentado por 2 personas</p>
                                 </div>
                                 <div>
                                     <a href="#">
@@ -55,11 +55,11 @@
                                     </a>
                                 </div>
                             </div>
-                            <hr align="center" width="50%">
+                            <div style="border: 1px solid #E2E2E2; height: 1px; margin: 20px 0 0 0; width: 100%;" class="separador"></div>
                             <br>
-                            <div class="info-autor">
+                            <div style="padding-top:0px;" class="info-autor">
                                 <div class="info-autor-content">
-                                    <p>Compartido por 2 personas</p>
+                                    <p class="texto-autor">Compartido por 2 personas</p>
                                 </div>
                                 <div>
                                     <a href="#">
@@ -99,7 +99,7 @@
                             </div>
                         </div>
                         <!-- CONTENEDOR NOTICIA -->
-                        <div style="padding:2rem;" class="col-md-9">
+                        <div style="padding:1rem;" class="col-md-9">
                             <!-- BANNER PUBLI -->
                             <div style="background:black; height:150px; width:100%;">
                                 <div style="background:#e2e2e2; position:relative; top:120px; width:115px; height:30px; padding:5px;">
