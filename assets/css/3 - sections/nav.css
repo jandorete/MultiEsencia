@@ -168,6 +168,7 @@
 
 .multiconos-container {
   width: 100%;
+  overflow: scroll;
   z-index: 2;
   top: 0;
   left: 0;

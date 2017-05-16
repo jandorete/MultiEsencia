@@ -3,6 +3,28 @@
     <head>
         <title>TuTecnoMundo - Apps y Juegos Android - Noticias android y top de las mejores apps, juegos y personalizacion para android. Saca el máximo a tu movil / celular o tablet en TuTecnoMundo.</title>
         <?php include 'head.php'; ?>
+		<style>
+		.affix {
+			width: 187px;
+			top: 50px;
+			margin-left:-3px;
+
+		}
+		@media only screen and (max-width: 1200px) {
+			.sidebar-noticia-desktop{
+				display:none;
+			}
+		}
+		@media only screen and (max-width: 768px) {
+			#sidebar-right{
+				display:none;
+			}
+			.container{
+			margin:0px 0px 0px 0px;
+			padding: 0px 0px 0px 0px;
+			}
+		}		
+		</style>
     </head>
     <body>
         <?php include 'header.php'; ?>
@@ -11,7 +33,7 @@
 
             <div class="container-fluid">
                 <div class="row">
-                    <div class="col-lg-9 col-md-8 col-sm-12">
+                    <div class="col-lg-9 col-md-12 col-sm-12">
                 <!-- IMAGEN DESTACADA -->
                     <div class="row">
                         <div class="col-md-12 imagen-destacada">
@@ -23,82 +45,161 @@
                     </div>
                     <div class="row">
                         <!-- SIDEBAR NOTICIA -->
-                        <div class="col-md-3">
-                            <div class="info-autor">
-                                <div class="info-autor-content">
-                                    <p class="texto-autor" style="text-align:right;"><b>Autor</b></p>
-                                    <p class="texto-autor">Antonio Serna</p>
-                                </div>
-                                <div>
-                                    <a href="#">
-                                        <img class="foto-autor" src="https://www.placecage.com/55/55" alt="...">
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="info-autor">
-                                <div class="info-autor-content">
-                                    <p class="texto-autor">Leido por 26.793 personas</p>
-                                </div>
-                                <div>
-                                    <a href="#">
-                                        <i class="fa fa-3x fa-eye" aria-hidden="true"></i>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="info-autor">
-                                <div class="info-autor-content">
-                                    <p class="texto-autor">Comentado por 2 personas</p>
-                                </div>
-                                <div>
-                                    <a href="#">
-                                        <i class="fa fa-3x fa-commenting" aria-hidden="true"></i>
-                                    </a>
-                                </div>
-                            </div>
-                            <div style="border: 1px solid #E2E2E2; height: 1px; margin: 20px 0 0 0; width: 100%;" class="separador"></div>
-                            <br>
-                            <div style="padding-top:0px;" class="info-autor">
-                                <div class="info-autor-content">
-                                    <p class="texto-autor">Compartido por 2 personas</p>
-                                </div>
-                                <div>
-                                    <a href="#">
-                                        <i class="fa fa-3x fa-share-alt" aria-hidden="true"></i>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="info-autor">
-                                <div class="info-autor-content">
-                                    <p style="color:#3b5998;">Facebook</p>
-                                </div>
-                                <div>
-                                    <a href="#">
-                                        <i style="color:#3b5998;" class="fa fa-3x fa-facebook" aria-hidden="true"></i>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="info-autor">
-                                <div class="info-autor-content">
-                                    <p style="color:#d62d20;">Google</p>
-                                </div>
-                                <div>
-                                    <a href="#">
-                                        <i style="color:#d62d20;" class="fa fa-3x fa-google" aria-hidden="true"></i>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="info-autor">
-                                <div class="info-autor-content">
-                                    <p style="color:#00aced;">Twitter</p>
-                                </div>
-                                <div>
-                                    <a href="#">
-                                        <i style="color:#00aced;" class="fa fa-3x fa-twitter" aria-hidden="true"></i>
-                                    </a>
-                                </div>
-                            </div>
+                        <div class="sidebar-noticia-desktop col-md-3">
+							<div data-spy="affix" data-offset-top="380">
+								<div class="info-autor">
+									<div class="info-autor-content">
+										<p class="texto-autor" style="text-align:right;"><b>Autor</b></p>
+										<p class="texto-autor">Antonio Serna</p>
+									</div>
+									<div>
+										<a href="#">
+											<img class="foto-autor" src="https://www.placecage.com/55/55" alt="...">
+										</a>
+									</div>
+								</div>
+								<div class="info-autor">
+									<div class="info-autor-content">
+										<p class="texto-autor">Leido por 26.793 personas</p>
+									</div>
+									<div>
+										<a href="#">
+											<i class="fa fa-3x fa-eye" aria-hidden="true"></i>
+										</a>
+									</div>
+								</div>
+								<div class="info-autor">
+									<div class="info-autor-content">
+										<p class="texto-autor">Comentado por 2 personas</p>
+									</div>
+									<div>
+										<a href="#">
+											<i class="fa fa-3x fa-commenting" aria-hidden="true"></i>
+										</a>
+									</div>
+								</div>
+								<div style="border: 1px solid #E2E2E2; height: 1px; margin: 20px 0 0 0; width: 100%;" class="separador"></div>
+								<br>
+								<div style="padding-top:0px;" class="info-autor">
+									<div class="info-autor-content">
+										<p class="texto-autor">Compartido por 2 personas</p>
+									</div>
+									<div>
+										<a href="#">
+											<i class="fa fa-3x fa-share-alt" aria-hidden="true"></i>
+										</a>
+									</div>
+								</div>
+								<div class="info-autor">
+									<div class="info-autor-content">
+										<p style="color:#3b5998;">Facebook</p>
+									</div>
+									<div>
+										<a href="#">
+											<i style="color:#3b5998;" class="fa fa-3x fa-facebook" aria-hidden="true"></i>
+										</a>
+									</div>
+								</div>
+								<div class="info-autor">
+									<div class="info-autor-content">
+										<p style="color:#d62d20;">Google</p>
+									</div>
+									<div>
+										<a href="#">
+											<i style="color:#d62d20;" class="fa fa-3x fa-google" aria-hidden="true"></i>
+										</a>
+									</div>
+								</div>
+								<div class="info-autor">
+									<div class="info-autor-content">
+										<p style="color:#00aced;">Twitter</p>
+									</div>
+									<div>
+										<a href="#">
+											<i style="color:#00aced;" class="fa fa-3x fa-twitter" aria-hidden="true"></i>
+										</a>
+									</div>
+								</div>
+							</div>
                         </div>
-                        <!-- CONTENEDOR NOTICIA -->
+                        <div style="display:none;" class="sidebar-noticia-smartphone col-xs-12">
+							
+								<div class="info-autor">
+									<div class="info-autor-content">
+										<p class="texto-autor" style="text-align:right;"><b>Autor</b></p>
+										<p class="texto-autor">Antonio Serna</p>
+									</div>
+									<div>
+										<a href="#">
+											<img class="foto-autor" src="https://www.placecage.com/55/55" alt="...">
+										</a>
+									</div>
+								</div>
+								<div class="info-autor">
+									<div class="info-autor-content">
+										<p class="texto-autor">Leido por 26.793 personas</p>
+									</div>
+									<div>
+										<a href="#">
+											<i class="fa fa-3x fa-eye" aria-hidden="true"></i>
+										</a>
+									</div>
+								</div>
+								<div class="info-autor">
+									<div class="info-autor-content">
+										<p class="texto-autor">Comentado por 2 personas</p>
+									</div>
+									<div>
+										<a href="#">
+											<i class="fa fa-3x fa-commenting" aria-hidden="true"></i>
+										</a>
+									</div>
+								</div>
+								<div style="border: 1px solid #E2E2E2; height: 1px; margin: 20px 0 0 0; width: 100%;" class="separador"></div>
+								<br>
+								<div style="padding-top:0px;" class="info-autor">
+									<div class="info-autor-content">
+										<p class="texto-autor">Compartido por 2 personas</p>
+									</div>
+									<div>
+										<a href="#">
+											<i class="fa fa-3x fa-share-alt" aria-hidden="true"></i>
+										</a>
+									</div>
+								</div>
+								<div class="info-autor">
+									<div class="info-autor-content">
+										<p style="color:#3b5998;">Facebook</p>
+									</div>
+									<div>
+										<a href="#">
+											<i style="color:#3b5998;" class="fa fa-3x fa-facebook" aria-hidden="true"></i>
+										</a>
+									</div>
+								</div>
+								<div class="info-autor">
+									<div class="info-autor-content">
+										<p style="color:#d62d20;">Google</p>
+									</div>
+									<div>
+										<a href="#">
+											<i style="color:#d62d20;" class="fa fa-3x fa-google" aria-hidden="true"></i>
+										</a>
+									</div>
+								</div>
+								<div class="info-autor">
+									<div class="info-autor-content">
+										<p style="color:#00aced;">Twitter</p>
+									</div>
+									<div>
+										<a href="#">
+											<i style="color:#00aced;" class="fa fa-3x fa-twitter" aria-hidden="true"></i>
+										</a>
+									</div>
+							</div>
+                        </div>
+                        
+						<!-- CONTENEDOR NOTICIA -->
                         <div style="padding:1rem;" class="col-md-9">
                             <!-- BANNER PUBLI -->
                             <div style="background:black; height:150px; width:100%;">
@@ -126,19 +227,19 @@
                             </div>
                             <div class="row">
                             <h2>Recomendado por el autor</h2>
-                                <div class="col-md-4 col-xs-6">
+                                <div class="col-md-4 col-xs-12">
                                     <p>Titulo de noticia</p>
                                     <a class="titulo-noticia-reciente" href="#">
                                         <img class="img-noticia-reciente" alt="Prueba" src="https://www.tutecnomundo.com/wp-content/uploads/2017/04/xiaomi-mi-6-precio.jpg" />
                                     </a>
                                 </div>
-                                <div class="col-md-4 col-xs-6">
+                                <div class="col-md-4 col-xs-12">
                                     <p>Titulo de noticia</p>
                                     <a class="titulo-noticia-reciente" href="#">
                                         <img class="img-noticia-reciente" alt="Prueba" src="https://www.tutecnomundo.com/wp-content/uploads/2017/04/xiaomi-mi-6-precio.jpg" />
                                     </a>
                                 </div>
-                                <div class="col-md-4 col-xs-6">
+                                <div class="col-md-4 col-xs-12">
                                     <p>Titulo de noticia</p>
                                     <a class="titulo-noticia-reciente" href="#">
                                         <img class="img-noticia-reciente" alt="Prueba" src="https://www.tutecnomundo.com/wp-content/uploads/2017/04/xiaomi-mi-6-precio.jpg" />
@@ -147,19 +248,19 @@
                             </div>
                             <div style="border: 1px solid #E2E2E2; height: 1px; margin: 30px 0; width: 100%;" class="separador"></div>
                             <div class="row">
-                                <div class="col-md-4 col-xs-6">
+                                <div class="col-md-4 col-xs-12">
                                     <p>Titulo de noticia</p>
                                     <a class="titulo-noticia-reciente" href="#">
                                         <img class="img-noticia-reciente" alt="Prueba" src="https://www.tutecnomundo.com/wp-content/uploads/2017/04/xiaomi-mi-6-precio.jpg" />
                                     </a>
                                 </div>
-                                <div class="col-md-4 col-xs-6">
+                                <div class="col-md-4 col-xs-12">
                                     <p>Titulo de noticia</p>
                                     <a class="titulo-noticia-reciente" href="#">
                                         <img class="img-noticia-reciente" alt="Prueba" src="https://www.tutecnomundo.com/wp-content/uploads/2017/04/xiaomi-mi-6-precio.jpg" />
                                     </a>
                                 </div>
-                                <div class="col-md-4 col-xs-6">
+                                <div class="col-md-4 col-xs-12">
                                     <p>Titulo de noticia</p>
                                     <a class="titulo-noticia-reciente" href="#">
                                         <img class="img-noticia-reciente" alt="Prueba" src="https://www.tutecnomundo.com/wp-content/uploads/2017/04/xiaomi-mi-6-precio.jpg" />
@@ -186,10 +287,10 @@
                             </div>
                             <div class="row">
                                 <div style="display:flex; justify-content:flex-end; align-items:center; height:150px"; class="col-md-12">
-                                    <p style="position:relative; top:-20px; right:50px;">Tu comentario</p><textarea style="border: 2px #65BA53 solid;width: 500px; height: 90px;"></textarea>
+                                    <p style="position:relative; top:-20px; right:10px;">Tu comentario</p><textarea style="border: 2px #65BA53 solid;width: 500px; height: 90px;"></textarea>
                                 </div>
                                 <div style="display:flex; align-items:center; justify-content:flex-end; align-items:center;"; class="col-md-12">
-                                        <p style="position:relative; right:50px;">Tu red social</p>
+                                        <p style="position:relative; right:10px;">Tu red social</p>
                                         <div style="display:flex; align-items:center; justify-content:space-between; width:500px;" class="redes">
                                             <a href="#" style="color:white; border-radius:4px 4px 4px 4px; background:#3E62A3;padding:0.5rem;width:130px; text-align:center;">Facebook&nbsp;<i style="position:relative; top:3px;float:right;" class="fa fa-facebook fa-fw" aria-hidden="true"></i></a>
                                             <a href="#" style="color:white; border-radius:4px 4px 4px 4px; background:#DE4C40;padding:0.5rem;width:130px; text-align:center;">Google+&nbsp;<i style="position:relative; top:3px;float:right;" class="fa fa-google fa-fw" aria-hidden="true"></i></a>
@@ -197,9 +298,9 @@
                                         </div>
                                 </div>
                                 <div style="display:flex; justify-content:flex-end; align-items:center;padding: 40px 0 0 0;" class="col-md-12">
-                                    <a href="#" style="position:relative; right:50px; color:white; background:#65B853;padding:1rem; width:120px; text-align:center;">Enviar</a>
+                                    <a href="#" style="position:relative; right:10px; color:white; background:#65B853;padding:1rem; width:120px; text-align:center;">Enviar</a>
                                     <div style="width:500px;">
-                                        <p style="position:relative;left: -15px;">No haremos publicaciones sin tu permiso.</p>
+                                        <p style="position:relative;">No haremos publicaciones sin tu permiso.</p>
                                     </div>
                                 </div>
                             </div>

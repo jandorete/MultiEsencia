@@ -1,4 +1,4 @@
-<div class="col-lg-3 col-md-2">
+<div class="col-lg-3 col-md-2 col-sm-2">
     <aside id="sidebar-right" class="sidebar flex justify-start items-start bgcolor-sidebar">
 			<section>
 				<a href="#" class="categoria-sidebar-right bgcolor-tutecnomundo">
