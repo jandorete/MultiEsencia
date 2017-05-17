@@ -3,27 +3,6 @@
     <head>
         <title>TuTecnoMundo - Apps y Juegos Android - Noticias android y top de las mejores apps, juegos y personalizacion para android. Saca el máximo a tu movil / celular o tablet en TuTecnoMundo.</title>
         <?php include 'head.php'; ?>
-		<style>
-		.affix {
-			width: 165px;
-			top: 50px;
-
-		}
-		@media only screen and (max-width: 1200px) {
-			.sidebar-noticia-desktop{
-				display:none;
-			}
-		}
-		@media only screen and (max-width: 768px) {
-			#sidebar-right{
-				display:none;
-			}
-			.container{
-			margin:0px 0px 0px 0px;
-			padding: 0px 0px 0px 0px;
-			}
-		}		
-		</style>
     </head>
     <body>
         <?php include 'header.php'; ?>
