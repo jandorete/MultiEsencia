@@ -41,8 +41,19 @@
         document.getElementById("barraaceptacion").style.display="none";
     }
     
-    var height = $('.content').height();
-    $('.sidebar').height(height);
+    // funcion que se encarga de ajustar el alto del sidebar. se llamara en ready() y en resize()
+    function ajustarAlto() {        
+        var height = $('.content').height();
+        $('.sidebar').height(height);    
+    }
+    
+    $(window).resize(function() {  
+        ajustarAlto();
+    });
+    
+    $(window).ready(function() {
+        ajustarAlto();
+    })
     
 </script>
 <!--//FIN BLOQUE COOKIES-->
