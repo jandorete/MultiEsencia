@@ -254,7 +254,34 @@
 									<div  style="background:#bfbfbf; color:#333;" class="col-lg-2 resultado-encuesta">4</div>
 								</div>
 							</div>
-							
+							<div class="review">
+								<h2>Reviews</h2>
+								<div style="background:#61ae4f;" class="row review">
+									<div  class="col-lg-6"><h3>Valoración Final</h3></div>
+									<div  class="col-lg-6"><h3>8,7</h3>
+										<p>Nos encontramos ante uno de los mejores
+										móviles del mercado. Sin duda se venderá
+										muchísimo y más aún con el barato precio
+										de salida establecido. Un dispositivo a tener
+										en cuenta.</p>
+									</div>
+								</div>
+								<div style="background:#65b855;" class="row review">
+									<div  class="col-lg-6"><h3>Puntos positivos</h3></div>
+									<div  class="col-lg-6">
+										<p><span class="glyphicon glyphicon-plus"></span>&nbsp;&nbsp;Diseño</p>
+										<p><span class="glyphicon glyphicon-plus"></span>&nbsp;&nbsp;Diseño</p>
+										<p><span class="glyphicon glyphicon-plus"></span>&nbsp;&nbsp;Diseño</p>
+									</div>
+								</div>
+								<div style="background:#61ae4f;" class="row review">
+									<div  class="col-lg-6"><h3>Puntos negativos</h3></div>
+									<div  class="col-lg-6">
+										<p><span class="glyphicon glyphicon-minus"></span>&nbsp;&nbsp;Diseño</p>
+										<p><span class="glyphicon glyphicon-minus"></span>&nbsp;&nbsp;Diseño</p>
+									</div>
+								</div>
+							</div>
                         </div>
                     </div>
                 </div>

@@ -276,6 +276,19 @@ color: white;
 padding: 1rem;
 }
 
+.review{
+padding:1rem;
+color:white;
+}
+.review h2{
+text-align:center;
+font-size:32px;
+color:#333;
+}
+
+
+
+
 .row.vdivide [class*='col-']:not(:last-child):after {
   box-shadow: 1px 0px 3px 0px #797878;
   background: #fff;
