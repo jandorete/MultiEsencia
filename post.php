@@ -32,7 +32,7 @@
             <?php include 'navbar.php'; ?>
 
 <!--            <div class="container-fluid">-->
-                    <div class="col-md-8 col-sm-12 content">
+                <div class="col-md-8 col-sm-12 content">
                 <!-- IMAGEN DESTACADA -->
                     <div class="row">
                         <div class="col-md-12 imagen-destacada">

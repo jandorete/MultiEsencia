@@ -83,6 +83,11 @@ hr {
 .container-fluid{
     padding-top: 50px;
 }
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
 
 /*************** PAGINA POST ****************/
 
