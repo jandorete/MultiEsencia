@@ -1,13 +1,20 @@
         <nav id="nav" class="nav-container bgcolor-tutecnomundo">
             <ul id="nav-ul" class="inline-flex flex-row flex-wrap items-center justify-between">
                 <li class="nav-link" >
-                        <a href="javascript:void(0)" id="menu-btn" ><i id="menu-btn--icon" class="fa fa-bars fa-lg" aria-hidden="true"></i> Menú</a>
-                    </li>
+                    <a href="javascript:void(0)" id="menu-btn">
+                        <i id="menu-btn--icon" class="fa fa-bars fa-lg" aria-hidden="true"></i> <span class="texto-cabecera">Menú</span>
+                    </a>
+                </li>
                 <li class="nav-logo">
-                        <a href="index.php"><img src="assets/img/Iconos Temáticas/D TuTecnoMundo.png" alt="TuTecnoMundo" height="80" /> TuTecnoMundo</a>
-                    </li>
+                    <a href="index.php"><img src="assets/img/Iconos Temáticas/D TuTecnoMundo.png" alt="TuTecnoMundo" height="80" /> 
+                        <span class="texto-logo">TuTecnoMundo</span>
+                    </a>
+                </li>
                 <li class="nav-link">
-                        <a href="javascript:void(0)" id="search-btn"><i class="fa fa-search fa-lg" aria-hidden="true"></i> Buscar</a>
+                    <a href="javascript:void(0)" id="search-btn">
+                        <span class="texto-cabecera">Buscar</span>
+                        <i class="fa fa-search fa-lg" aria-hidden="true"></i>
+                    </a>
                 </li>
             </ul>
 

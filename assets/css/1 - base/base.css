@@ -2,24 +2,27 @@ html {
   font-family: 'Roboto', sans-serif;
 }
 .affix {
-			width: 165px;
-			top: 50px;
-
-		}
-		@media only screen and (max-width: 1200px) {
-			.sidebar-noticia-desktop{
-				display:none;
-			}
-		}
-		@media only screen and (max-width: 768px) {
-			#sidebar-right{
-				display:none;
-			}
-			.container{
-			margin:0px 0px 0px 0px;
-			padding: 0px 0px 0px 0px;
-			}
-		}
+    width: 165px;
+    top: 50px;
+}
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+@media only screen and (max-width: 1200px) {
+    .sidebar-noticia-desktop{
+        display:none;
+    }
+}
+@media only screen and (max-width: 768px) {
+    #sidebar-right{
+        display:none;
+    }
+    .container{
+    margin:0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    }
+}
 
 #sidebar::-webkit-scrollbar-track
 {
@@ -60,6 +63,10 @@ html {
     margin-left: 67px;
 }
 
+.sidebar {
+    overflow: hidden;
+}
+
 hr {
   background-color: rgb(234, 234, 234);
   background-color: #eaeaea;
@@ -87,6 +94,51 @@ hr {
     display: inline-block;
     vertical-align: middle;
     float: none;
+}
+
+
+/****************** CABECERA ************************/
+
+@media only screen and (max-width: 768px) {
+    .texto-cabecera {
+        visibility: hidden;
+        display: none;
+    }
+    .texto-logo {
+        font-size: 1em;
+    }
+}
+
+/****************** PORTADA *************************/
+
+.titular {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+@media only screen and (max-width: 1200px) {
+    .titular {
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .titular {
+        font-size: 1.5em;
+    }
+}
+.img-noticia {
+    margin-bottom: 10px;
+}
+.destacada {
+    font-size: 2em;
+    text-align: right;
+}
+.destacada2 {
+    font-size: 2em;
+}
+.grupo-noticias {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 /*************** PAGINA POST ****************/
@@ -126,6 +178,11 @@ hr {
 	top: 0;
 	bottom: 0;
 	margin: auto;
+}
+.subtitulo {
+    font-size: 1.5em;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 /*************************/

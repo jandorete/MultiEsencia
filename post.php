@@ -192,7 +192,7 @@
                             <!-- CUERPO NOTICIA -->
                             <div>
                                 <p>Una de las novedades más destacadas del nuevo Galaxy S7 es la protección IP68. Esta acreditación nos garantiza una protección muy fuerte contra el polvo (lo otorga el número 6) y una inmersión completa y continuada en agua (lo otorga el número 8), que nos permite mantener el smartphone hasta 30 minutos bajo 1 metro de profundidad sin que este sufra daño alguno.</p>
-                                <h2>¿Qué es exactamente la protección ofrecida que ofrece el nuevo Samsung Galaxy S7?</h2>
+                                <h2 class="subtitulo">¿Qué es exactamente la protección ofrecida que ofrece el nuevo Samsung Galaxy S7?</h2>
                                 <p>Esta protección nos da un plus de seguridad para todos aquellos que queramos sumergir el smartphone, pues sabemos que Samsung ha trabajado en ello y que en principio no debería ocurrir nada (la acreditación certtifica el aprobado en pruebas de este tipo), pero tal y como conocimos hace escasas horas, Sony ha optado por no incluir en la garantía cualquier defecto en este ámbito, pese haber pasado los test de reconocimiento de acreditación IP68, de modo que si nuestro smartphone se rompiera al ser sumergido, no nos lo cubriría la garantía.</p>
                                 <img style="width:100%; padding:20px 0 20px 0rem;" src="https://www.tutecnomundo.com/wp-content/uploads/2017/04/xiaomi-mi-6-precio.jpg" />
                                 <p>Por el momento, no tenemos constancia de que Samsung haya optado por este camino, sino todo lo contrario, pues en todo momento la empresa ha hecho especial hincapié en este punto, añadiendo que el trabajo realizado ha sido para poder ofrecer a los usuarios un smartphone más completo. Sería un total desastre que finalmente Samsung optara por tomar el camino que ha decidido tomar Sony y no cubrir en la garantía del smartphone un aspecto tan elemental como este, pues entonces no tendría sentido alguno poder usar esta funcionalidad si existe un riesgo real a que algo salga mal.</p>
@@ -204,21 +204,21 @@
                                 </div>
                             </div>
                             <div class="row">
-                            <h2>Recomendado por el autor</h2>
+                            <h2 class="subtitulo">Recomendado por el autor</h2>
                                 <div class="col-md-4 col-xs-12">
-                                    <p>Titulo de noticia</p>
+                                    <header class="titular">Titulo de noticia</header>
                                     <a class="titulo-noticia-reciente" href="#">
                                         <img class="img-noticia-reciente" alt="Prueba" src="https://www.tutecnomundo.com/wp-content/uploads/2017/04/xiaomi-mi-6-precio.jpg" />
                                     </a>
                                 </div>
                                 <div class="col-md-4 col-xs-12">
-                                    <p>Titulo de noticia</p>
+                                    <header class="titular">Titulo de noticia</header>
                                     <a class="titulo-noticia-reciente" href="#">
                                         <img class="img-noticia-reciente" alt="Prueba" src="https://www.tutecnomundo.com/wp-content/uploads/2017/04/xiaomi-mi-6-precio.jpg" />
                                     </a>
                                 </div>
                                 <div class="col-md-4 col-xs-12">
-                                    <p>Titulo de noticia</p>
+                                    <header class="titular">Titulo de noticia</header>
                                     <a class="titulo-noticia-reciente" href="#">
                                         <img class="img-noticia-reciente" alt="Prueba" src="https://www.tutecnomundo.com/wp-content/uploads/2017/04/xiaomi-mi-6-precio.jpg" />
                                     </a>

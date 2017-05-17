@@ -42,9 +42,13 @@
     }
     
     // funcion que se encarga de ajustar el alto del sidebar. se llamara en ready() y en resize()
-    function ajustarAlto() {        
+    function ajustarAlto() {
         var height = $('.content').height();
-        $('.sidebar').height(height);    
+        var height2 = $('.sidebar').height();
+        
+        if (height>height2) {
+            $('.sidebar').height(height);
+        }
     }
     
     $(window).resize(function() {  
@@ -63,3 +67,4 @@
     $('p').selectionSharer();
 </script>
 <script type="text/javascript" src="assets/js/jquery.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>

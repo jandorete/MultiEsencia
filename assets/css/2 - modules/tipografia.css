@@ -24,8 +24,10 @@ h1 {
 }
 
 h2 {
-  font-size: 14px;
-  font-weight: 700;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
 
 h3 {
