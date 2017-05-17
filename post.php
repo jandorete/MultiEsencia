@@ -29,17 +29,17 @@
     <body>
         <?php include 'header.php'; ?>
         <div class="container">
+            <div class="row">
             <?php include 'navbar.php'; ?>
 
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-9 col-md-12 col-sm-12">
+<!--            <div class="container-fluid">-->
+                    <div class="col-md-8 col-sm-12 content">
                 <!-- IMAGEN DESTACADA -->
                     <div class="row">
                         <div class="col-md-12 imagen-destacada">
                             <a href="#">
                                 <h1>Titulo de la noticia</h1>
-                                <img alt="Prueba" src="https://www.tutecnomundo.com/wp-content/uploads/2017/04/xiaomi-mi-6-precio.jpg" />
+                                <img alt="Prueba" src="https://www.tutecnomundo.com/wp-content/uploads/2017/04/xiaomi-mi-6-precio.jpg" class="img-responsive" />
                             </a>
                         </div>
                     </div>
@@ -200,7 +200,7 @@
                         </div>
                         
 						<!-- CONTENEDOR NOTICIA -->
-                        <div style="padding:1rem;" class="col-md-9">
+                        <div style="padding:1rem;" class="col-xs-12 col-lg-9">
                             <!-- BANNER PUBLI -->
                             <div style="background:black; height:150px; width:100%;">
                                 <div style="background:#e2e2e2; position:relative; top:120px; width:115px; height:30px; padding:5px;">
@@ -341,7 +341,7 @@
                     </div>
                 </div>
                     <?php include 'sidebar.php'; ?>
-                </div>
+<!--                </div>-->
             </div>
 			<?php include 'footer.php'; ?>
         </div>

@@ -8,7 +8,7 @@
                     </li>
                 <li class="nav-link">
                         <a href="javascript:void(0)" id="search-btn"><i class="fa fa-search fa-lg" aria-hidden="true"></i> Buscar</a>
-                    </li>
+                </li>
             </ul>
 
             <div id="multiconos" class="multiconos-container bgcolor-multiconos" style="display: none;">
