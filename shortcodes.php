@@ -87,7 +87,7 @@
 									</div>
 									<div>
 										<a href="#">
-											<i style="color:#3b5998;" class="fa fa-3x fa-facebook" aria-hidden="true"></i>
+											<img style="width:45px;" src="assets/img/iconosredes/facebook.png"/>
 										</a>
 									</div>
 								</div>
@@ -97,7 +97,7 @@
 									</div>
 									<div>
 										<a href="#">
-											<i style="color:#d62d20;" class="fa fa-3x fa-google" aria-hidden="true"></i>
+											<img style="width:45px;" src="assets/img/iconosredes/google.png"/>
 										</a>
 									</div>
 								</div>
@@ -107,7 +107,7 @@
 									</div>
 									<div>
 										<a href="#">
-											<i style="color:#00aced;" class="fa fa-3x fa-twitter" aria-hidden="true"></i>
+											<img style="width:45px;" src="assets/img/iconosredes/twitter.png"/>
 										</a>
 									</div>
 								</div>
@@ -164,7 +164,7 @@
 									</div>
 									<div>
 										<a href="#">
-											<i style="color:#3b5998;" class="fa fa-3x fa-facebook" aria-hidden="true"></i>
+											<img style="width:45px;" src="assets/img/iconosredes/facebook.png"/>
 										</a>
 									</div>
 								</div>
@@ -174,7 +174,7 @@
 									</div>
 									<div>
 										<a href="#">
-											<i style="color:#d62d20;" class="fa fa-3x fa-google" aria-hidden="true"></i>
+											<img style="width:45px;" src="assets/img/iconosredes/google.png"/>
 										</a>
 									</div>
 								</div>
@@ -184,7 +184,7 @@
 									</div>
 									<div>
 										<a href="#">
-											<i style="color:#00aced;" class="fa fa-3x fa-twitter" aria-hidden="true"></i>
+											<img style="width:45px;" src="assets/img/iconosredes/twitter.png"/>
 										</a>
 									</div>
 							</div>
@@ -204,7 +204,7 @@
 										<div class="radio">
 											<input id="radio-2" name="radio" type="radio">
 											<label for="radio-2" class="radio-label">2. Moto G2</label>
-										</div>
+										</div> 	
 										<div class="radio">
 											<input id="radio-3" name="radio" type="radio">
 											<label for="radio-3" class="radio-label">3. Galaxy S7</label>
@@ -221,22 +221,28 @@
 									<div class="col-lg-6 pregunta-encuesta">¿Qué movil con protección al agua IP68 prefieres?</div>
 									<div class="col-lg-6">
 										<div class="radio">
-											<input id="radio-1" name="radio" type="radio" checked>
-											<label for="radio-1" class="radio-label">1. Xperia Z5</label>
+											<input id="radio-5" name="radio" type="radio" checked>
+											<label for="radio-5" class="radio-label">1. Xperia Z5</label>
 										</div>
 										<div class="radio">
-											<input id="radio-2" name="radio" type="radio">
-											<label for="radio-2" class="radio-label">2. Moto G2</label>
+											<input id="radio-6" name="radio" type="radio">
+											<label for="radio-6" class="radio-label">2. Moto G2</label>
 										</div>
 										<div class="radio">
-											<input id="radio-3" name="radio" type="radio">
-											<label for="radio-3" class="radio-label">3. Galaxy S7</label>
+											<input id="radio-7" name="radio" type="radio">
+											<label for="radio-7" class="radio-label">3. Galaxy S7</label>
 										</div>
 										<div class="radio">
-											<input id="radio-4" name="radio" type="radio">
-											<label for="radio-4" class="radio-label">4. Galaxy S6</label>
+											<input id="radio-8" name="radio" type="radio">
+											<label for="radio-8" class="radio-label">4. Galaxy S6</label>
 										</div>
 									</div>
+								</div>
+								<div class="row resultado">
+									<div  style="background:#fff; color:#333; text-align:left;" class="col-lg-5 resultado-encuesta">Ganador: Galaxy S7 <span style="float:right;">54%<span></div>
+									<div  style="background:#efefef; color:#333;" class="col-lg-3 resultado-encuesta">1</div>
+									<div  style="background:#dcdcdc; color:#333;" class="col-lg-2 resultado-encuesta">2</div>
+									<div  style="background:#bfbfbf; color:#333;" class="col-lg-2 resultado-encuesta">4</div>
 								</div>
 							</div>
 							
