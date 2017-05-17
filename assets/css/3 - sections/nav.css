@@ -168,7 +168,6 @@
 
 .multiconos-container {
   width: 100%;
-  overflow: scroll;
   z-index: 2;
   top: 0;
   left: 0;
@@ -223,4 +222,40 @@
 }
 #search-box:-ms-input-placeholder { /* Internet Explorer 10-11 */
   color: #000;
+}
+/******** COOKIES ************/
+#barraaceptacion {
+    display:none;
+    position:fixed;
+    left:0px;
+    right:0px;
+    bottom:0px;
+    padding-bottom:20px;
+    width:100%;
+    text-align:center;
+    min-height:50px;
+    background-color: #cfa10b;
+    color:#fff;
+    z-index:99999;
+}
+ 
+.inner {
+    width:100%;
+    position:absolute;
+    padding-left:5px;
+    font-family:verdana;
+    font-size:18px;
+    top:30%;
+}
+ 
+.inner a.ok {
+    padding:4px;
+    color:#00ff2e;
+    text-decoration:none;
+}
+ 
+.inner a.info {
+    padding-left:5px;
+    text-decoration:none;
+    color:#faff00;
 }
