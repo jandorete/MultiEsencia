@@ -7,7 +7,7 @@
 		.affix {
 			width: 187px;
 			top: 50px;
-			margin-left:-3px;
+			margin-left:-23px;
 
 		}
 		@media only screen and (max-width: 1200px) {
@@ -29,11 +29,20 @@
     <body>
         <?php include 'header.php'; ?>
         <div class="container">
+            <div class="row">
             <?php include 'navbar.php'; ?>
 
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-9 col-md-12 col-sm-12">
+<!--            <div class="container-fluid">-->
+                    <div class="col-md-8 col-sm-12 content">
+                <!-- IMAGEN DESTACADA -->
+                    <div class="row">
+                        <div class="col-md-12 imagen-destacada">
+                            <a href="#">
+                                <h1>Titulo de la noticia</h1>
+                                <img alt="Prueba" src="https://www.tutecnomundo.com/wp-content/uploads/2017/04/xiaomi-mi-6-precio.jpg" class="img-responsive" />
+                            </a>
+                        </div>
+                    </div>
                     <div class="row">
                         <!-- SIDEBAR NOTICIA -->
                         <div class="sidebar-noticia-desktop col-md-3">
@@ -190,7 +199,7 @@
 							</div>
                         </div>
                         
-						<!-- CONTENEDOR -->
+						<!-- CONTENEDOR NOTICIA -->
                         <div style="padding:1rem;" class="col-md-9">
                             <div class="encuesta">
 								<h2>Encuesta</h2>
@@ -250,7 +259,7 @@
                     </div>
                 </div>
                     <?php include 'sidebar.php'; ?>
-                </div>
+<!--                </div>-->
             </div>
 			<?php include 'footer.php'; ?>
         </div>

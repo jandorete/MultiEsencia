@@ -5,9 +5,8 @@
         <?php include 'head.php'; ?>
 		<style>
 		.affix {
-			width: 187px;
+			width: 165px;
 			top: 50px;
-			margin-left:-3px;
 
 		}
 		@media only screen and (max-width: 1200px) {
@@ -46,7 +45,7 @@
                     <div class="row">
                         <!-- SIDEBAR NOTICIA -->
                         <div class="sidebar-noticia-desktop col-md-3">
-							<div data-spy="affix" data-offset-top="380">
+							<div data-spy="affix" data-offset-top="362">
 								<div class="info-autor">
 									<div class="info-autor-content">
 										<p class="texto-autor" style="text-align:right;"><b>Autor</b></p>
@@ -96,7 +95,7 @@
 									</div>
 									<div>
 										<a href="#">
-											<i style="color:#3b5998;" class="fa fa-3x fa-facebook" aria-hidden="true"></i>
+											<img style="width:45px;" src="assets/img/iconosredes/facebook.png"/>
 										</a>
 									</div>
 								</div>
@@ -106,7 +105,7 @@
 									</div>
 									<div>
 										<a href="#">
-											<i style="color:#d62d20;" class="fa fa-3x fa-google" aria-hidden="true"></i>
+											<img style="width:45px;" src="assets/img/iconosredes/google.png"/>
 										</a>
 									</div>
 								</div>
@@ -116,7 +115,7 @@
 									</div>
 									<div>
 										<a href="#">
-											<i style="color:#00aced;" class="fa fa-3x fa-twitter" aria-hidden="true"></i>
+											<img style="width:45px;" src="assets/img/iconosredes/twitter.png"/>
 										</a>
 									</div>
 								</div>
@@ -173,7 +172,7 @@
 									</div>
 									<div>
 										<a href="#">
-											<i style="color:#3b5998;" class="fa fa-3x fa-facebook" aria-hidden="true"></i>
+											<img style="width:45px;" src="assets/img/iconosredes/facebook.png"/>
 										</a>
 									</div>
 								</div>
@@ -183,7 +182,7 @@
 									</div>
 									<div>
 										<a href="#">
-											<i style="color:#d62d20;" class="fa fa-3x fa-google" aria-hidden="true"></i>
+											<img style="width:45px;" src="assets/img/iconosredes/google.png"/>
 										</a>
 									</div>
 								</div>
@@ -193,7 +192,7 @@
 									</div>
 									<div>
 										<a href="#">
-											<i style="color:#00aced;" class="fa fa-3x fa-twitter" aria-hidden="true"></i>
+											<img style="width:45px;" src="assets/img/iconosredes/twitter.png"/>
 										</a>
 									</div>
 							</div>

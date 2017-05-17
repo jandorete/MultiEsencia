@@ -1,6 +1,25 @@
 html {
   font-family: 'Roboto', sans-serif;
 }
+.affix {
+			width: 165px;
+			top: 50px;
+
+		}
+		@media only screen and (max-width: 1200px) {
+			.sidebar-noticia-desktop{
+				display:none;
+			}
+		}
+		@media only screen and (max-width: 768px) {
+			#sidebar-right{
+				display:none;
+			}
+			.container{
+			margin:0px 0px 0px 0px;
+			padding: 0px 0px 0px 0px;
+			}
+		}
 
 #sidebar::-webkit-scrollbar-track
 {
@@ -36,6 +55,9 @@ html {
 #sidebar::scrollbar-thumb
 {
 	background-color: #fff;
+}
+.publicidad-sidebar-right.affix {
+    margin-left: 67px;
 }
 
 hr {

@@ -13,32 +13,12 @@
 					<div class="red"><div class="red-cifra bgcolor-pinterest">1 K</div><div class="red-pinterest bgcolor-pinterest"></div><div class="red-text"><a href="#" class="textcolor-pinterest">Pinterest</a></div></div>
 				</div>
 				<a href="#" class="categoria-sidebar-right bgcolor-tutecnomundo">
-					<div class="shape-invertido bgcolor-tutecnomundo">Descarga la App</div>
-				</a>
-				<div class="app">
-					<img src="https://placehold.it/250x160" alt="app" />
-					<p>Contenido a la carta gratis de lo que más te gusta.</p>
-				</div>
-				<a href="#" class="categoria-sidebar-right bgcolor-tutecnomundo">
-					<div class="shape-invertido bgcolor-tutecnomundo">Participa en el Foro</div>
-				</a>
-				<div class="participa-foro">
-					<form class="" action="" method="post">
-						<textarea name="name" placeholder="Haz tu pregunta" class="bordercolor-tutecnomundo"></textarea>
-						<div class="participa-foro-botones">
-							<input type="submit" name="name" value="Enviar" class="bgcolor-tutecnomundo textcolor-blanco"/>
-							<input type="button" name="name" value="Ver temas" class="bgcolor-tutecnomundo textcolor-blanco"/>
-						</div>
-					</form>
-
-				</div>
-				<a href="#" class="categoria-sidebar-right bgcolor-tutecnomundo">
 					<div class="shape-invertido bgcolor-tutecnomundo">Lo más buscado</div>
 				</a>
 				<div class="mas-buscado">
 					<span>Aplicaciones</span> <span>Google</span> <span>Samsung</span> <span>Juegos</span> <span>Especiales</span> <span>Google Play</span> <span>Actulizacion</span> <span>Sony</span> <span>Motorola</span> <span>HTC</span> <span>Fotografía</span> <span>Seguridad</span> <span>Root</span> <span>LG</span> <span>Opinión</span> <span>Personalización</span> <span>Tablet</span> <span>Trucos</span> <span>Móviles</span> <span>Nexus</span> <span>Facebook</span> <span>Rumores</span> <span>Filtraciones</span> <span>Ofertas</span> <span>Promociones</span> <span>Batería</span> <span>Desarrollo</span> <span>Whatsapp</span> <span>Musica</span> <span>Tablets</span>
 				</div>
-				<div class="publicidad-sidebar-right">
+				<div data-spy="affix" data-offset-top="700" class="publicidad-sidebar-right">
 					<img src="https://placehold.it/250x600/000/fff" alt="" />
 
 				</div>
