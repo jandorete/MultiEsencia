@@ -13,11 +13,18 @@ html {
     .sidebar-noticia-desktop{
         display:none;
     }
+	
 }
 @media only screen and (max-width: 768px) {
     #sidebar-right{
         display:none;
     }
+	.grupo-noticias {
+    margin-top: 20px;
+    margin-bottom: 20px;
+	display:block !important;
+	align-items:center;
+	}
     .container{
     margin:0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
@@ -139,8 +146,12 @@ hr {
 .grupo-noticias {
     margin-top: 20px;
     margin-bottom: 20px;
+	display:flex;
+	align-items:center;
 }
-
+.col-md-8.col-sm-12.content {
+    padding: 0px;
+}
 /*************** PAGINA POST ****************/
 
 /*************************/
