@@ -411,3 +411,13 @@ color:white;
 .radio input[type="radio"] + .radio-label:empty:before {
   margin-right: 0;
 }
+
+/**********FOOTER**********/
+#footer-bottom {
+    background-color: #65B853;
+	color:white;
+}
+#footer-bottom a{
+    color:white;
+	text-decoration:none;
+}

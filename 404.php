@@ -10,7 +10,7 @@
             
             <div class="row">
 				<div class="col-md-12">
-					<h1>Lo sentimos! <img width=50 src="assets/img/404.svg"/></h1> 
+					<h1>Lo sentimos! &nbsp; <img width=50 src="assets/img/404.svg"/></h1> 
 					<h2 style="font-size:24px;" >La página que buscas no existe</h2><br>
 					<p>Quizá has escrito mal la dirección, o la hemos roto nosotros.</p>
 					<p>Puedes escribir en el siguiente buscador para encontrar lo que quieres:</p><br><br>
@@ -65,7 +65,7 @@
                     </section>
 				</div>
             </div>
-        <?php include 'footer.php'; ?>
         </div>
+        <?php include 'footer.php'; ?>
     </body>
 </html>

@@ -5,7 +5,16 @@
 		<a style="text-decoration:none; color:#fff;" href="javascript:void(0);" onclick="PonerCookie();" id="menu-btn--icon" class="fa fa-lg fa-times" aria-hidden="true"></a>
     </div>
 </div>
- 
+<footer id="footer">
+	<section id="footer-bottom">
+		<div style="padding-top:15px;" class="container">
+					<div id="copyright">
+						<p>TuTecnoMundo © 2017    -   <a href="https://www.multiesencia.com/contacto.html" target="_blank">Contacto</a>   -   <a href="https://www.multiesencia.com/trabajo.html" target="_blank">Trabajo</a>   -   <a href="https://www.multiesencia.com/publicidad.html" target="_blank">Publicidad</a>   -   <a href="https://www.multiesencia.com/legal.html" target="_blank">Legal</a></p>
+					</div>
+				</div>
+			</div>
+	</section>
+</footer>
 <script>
     function getCookie(c_name){
         var c_value = document.cookie;
