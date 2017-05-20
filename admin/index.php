@@ -32,7 +32,7 @@
 			<div class="login-inferior row">
 				<div class="container">
 					<div class="col-md-12">
-						<form class="form-horizontal">
+						<form action="index2.php" class="form-horizontal">
 						  <div class="form-group">
 							<label for="inputEmail3" class="col-sm-2 control-label">Email</label>
 							<div class="col-sm-10">
