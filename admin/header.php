@@ -1,7 +1,7 @@
         <nav id="nav" class="nav-container bgcolor-tutecnomundo">
             <ul id="nav-ul" class="inline-flex flex-row flex-wrap items-center justify-between">
                 <li class="nav-logo">
-                    <a href="index.php"><img src="assets/img/Iconos Temáticas/D TuTecnoMundo.png" alt="TuTecnoMundo" height="80" /> 
+                    <a href="index2.php"><img src="assets/img/Iconos Temáticas/D TuTecnoMundo.png" alt="TuTecnoMundo" height="80" /> 
                         <span class="texto-logo">TuTecnoMundo</span>
                     </a>
                 </li>
@@ -12,7 +12,7 @@
                     </a>
                 </li>
 				<li class="nav-link">
-                    <a href="#" id="search-btn">
+                    <a href="redaccion.php" id="search-btn">
                         <i class="fa fa-newspaper-o fa-lg" aria-hidden="true"></i>&nbsp;
                         <span class="texto-cabecera">Redacción</span>
                     </a>
@@ -24,7 +24,7 @@
                     </a>
                 </li>
                 <li class="nav-link">
-                    <a href="#" id="search-btn">
+                    <a href="index2.php" id="search-btn">
                         <i class="fa fa-area-chart fa-lg" aria-hidden="true"></i>&nbsp;
                         <span class="texto-cabecera">Administración</span>
                     </a>

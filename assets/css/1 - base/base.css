@@ -148,8 +148,6 @@ hr {
 .grupo-noticias {
     margin-top: 20px;
     margin-bottom: 20px;
-	display:flex;
-	align-items:center;
 }
 .col-md-8.col-sm-12.content {
     padding: 0px;

@@ -56,24 +56,24 @@
 										</div>
 									</div>
 								</div>
-								<div class="row grupo-noticias">
-								<div class="col-lg-8 col-lg-push-4 col-xs-12">
-									<article>
-										<header style="position:absolute; right:20px; max-width:400px;"><h2 class="destacada"><a href="post.php"  style="color:white;">Lorem ipsum dolor sit amet</a></h2></header>
-										<a href="post.php"><img src="assets/img/articulos/7.jpg" class="img-responsive destacada"></a>
-									</article>
-								</div>
-								<div class="col-lg-4 col-lg-pull-8 col-xs-12">
-									<article class="col-lg-12 col-sm-6 col-xs-12">
-										<header><h2 class="titular"><a href="post.php">Lorem ipsum dolor sit amet</a></h2></header>
-										<a href="post.php"><img src="assets/img/articulos/2.jpg" class="img-responsive img-noticia"></a>
-									</article>
-									<article class="col-lg-12 col-sm-6 col-xs-12">
-										<header><h2 class="titular"><a href="post.php">Lorem ipsum dolor sit amet</a></h2></header>
-										<a href="post.php"><img src="assets/img/articulos/6.jpg" class="img-responsive"></a>
-									</article>
-								</div>
-							</div>                            
+                            <div class="row grupo-noticias">
+                                <div class="col-lg-8 col-lg-push-4 col-xs-12">
+                                    <article>
+                                        <header style="position:absolute; right:20px; max-width:400px;"><h2 class="destacada"><a href="post.php"  style="color:white;">Lorem ipsum dolor sit amet</a></h2></header>
+                                        <a href="post.php"><img src="assets/img/articulos/7.jpg" class="img-responsive destacada center-block"></a>
+                                    </article>
+                                </div>
+                                <div class="col-lg-4 col-lg-pull-8 col-xs-12">
+                                    <article class="col-lg-12 col-sm-6 col-xs-12">
+                                        <header><h2 class="titular"><a href="post.php">Lorem ipsum dolor sit amet</a></h2></header>
+                                        <a href="post.php"><img src="assets/img/articulos/2.jpg" class="img-responsive img-noticia"></a>
+                                    </article>
+                                    <article class="col-lg-12 col-sm-6 col-xs-12">
+                                        <header><h2 class="titular"><a href="post.php">Lorem ipsum dolor sit amet</a></h2></header>
+                                        <a href="post.php"><img src="assets/img/articulos/6.jpg" class="img-responsive"></a>
+                                    </article>
+                                </div>
+                             </div>                            
 
 							<div style="border: 1px solid #E2E2E2; height: 1px; margin: 25px 0; width: 100%;"></div>
 

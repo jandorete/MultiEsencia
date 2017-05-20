@@ -2,13 +2,14 @@
 <html>
     <head>
 		<title>TuTecnoMundo - Apps y Juegos Android - Noticias android y top de las mejores apps, juegos y personalizacion para android. Saca el máximo a tu movil / celular o tablet en TuTecnoMundo.</title>
-		<?php include('../head.php'); ?>
+		<?php include('head.php'); ?>
         <link href="http://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.3/summernote.css" rel="stylesheet">
 		<style>
 		</style>
     </head>
     <body>
-		<div class="container">
+        <?php include 'header.php'; ?>
+		<div class="container-fluid">
             
             <div class="row">
                 <div class="col-xs-2 form-label">
@@ -42,9 +43,9 @@
             <div id="summernote"></div>
 
         </div>
-        <?php include('../footer.php'); ?>
+        <?php include('footer.php'); ?>
         <script src="http://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.3/summernote.js"></script>
-        <script src="../assets/js/lang/summernote-es-ES.js"></script>
+        <script src="assets/js/lang/summernote-es-ES.js"></script>
     </body>
     <script>
         $(document).ready(function() {

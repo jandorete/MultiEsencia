@@ -11,12 +11,13 @@
             <div class="row">
                 <?php include 'navbar.php'; ?>
                 <div class="col-md-8 col-sm-12 content">
+                    
                     <section>
                         <div class="row grupo-noticias">
                             <div class="col-lg-8 col-lg-push-4 col-xs-12">
                                 <article>
                                     <header style="position:absolute; right:20px; max-width:400px;"><h2 class="destacada"><a href="post.php"  style="color:white;">Lorem ipsum dolor sit amet</a></h2></header>
-                                    <a href="post.php"><img src="assets/img/articulos/7.jpg" class="img-responsive destacada"></a>
+                                    <a href="post.php"><img src="assets/img/articulos/7.jpg" class="img-responsive center-block destacada"></a>
                                 </article>
                             </div>
                             <div class="col-lg-4 col-lg-pull-8 col-xs-12">
