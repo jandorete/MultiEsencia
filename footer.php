@@ -1,6 +1,6 @@
 <!--//BLOQUE COOKIES-->
-<div id="barraaceptacion" style="display: block;">
-    <div class="inner">
+<div class="row" id="barraaceptacion" style="display: block;">
+    <div class="col-md-12 inner">
         Nos encanta personalizar su experiencia de usuario usando cookies &nbsp;
 		<a style="text-decoration:none; color:#fff;" href="javascript:void(0);" onclick="PonerCookie();" id="menu-btn--icon" class="fa fa-lg fa-times" aria-hidden="true"></a>
     </div>
