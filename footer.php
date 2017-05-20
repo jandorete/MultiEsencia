@@ -9,7 +9,12 @@
 	<section id="footer-bottom">
 		<div style="padding-top:15px;" class="container">
 					<div id="copyright">
-						<p>TuTecnoMundo © 2017    -   <a href="https://www.multiesencia.com/contacto.html" target="_blank">Contacto</a>   -   <a href="https://www.multiesencia.com/trabajo.html" target="_blank">Trabajo</a>   -   <a href="https://www.multiesencia.com/publicidad.html" target="_blank">Publicidad</a>   -   <a href="https://www.multiesencia.com/legal.html" target="_blank">Legal</a></p>
+						<p style="display: flex;
+								  justify-content: center;
+								  flex-wrap: wrap;
+								  flex-direction: row;
+								  align-items: center;">
+								  TuTecnoMundo © 2017    -   <a href="https://www.multiesencia.com/contacto.html" target="_blank">Contacto</a>   -   <a href="https://www.multiesencia.com/trabajo.html" target="_blank">Trabajo</a>   -   <a href="https://www.multiesencia.com/publicidad.html" target="_blank">Publicidad</a>   -   <a href="https://www.multiesencia.com/legal.html" target="_blank">Legal</a></p>
 					</div>
 				</div>
 			</div>
