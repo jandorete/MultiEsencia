@@ -3,6 +3,12 @@
     <head>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>TuTecnoMundo - Apps y Juegos Android - Noticias android y top de las mejores apps, juegos y personalizacion para android. Saca el máximo a tu movil / celular o tablet en TuTecnoMundo.</title>
+		<meta charset="utf-8">
+		<link href="assets/css/style.css" rel='stylesheet' type='text/css' />
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+		<!--webfonts-->
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:600italic,400,300,600,700' rel='stylesheet' type='text/css'>
+		<!--//webfonts-->
 		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 		<style>
 		body{
@@ -10,59 +16,33 @@
 		}
 		.login-superior {
 			background-color: #f3c600;
-			height:70vh;
+			height:50vh;
 		}
 		.login-inferior {
 			padding-top:3rem;
-			height:30vh;
+			height:50vh;
 		}
 
 		</style>
     </head>
     <body>
-		<div class="container-fluid">
-			<div class="login-superior row">
-				<div class="container">
-					<div style="text-align: center; display: block;" class="col-md-12">
-						<img style="width:300px;" src="../assets/img/logo-multiesencia.png"/>
-						<h1 style="color:#fff; font-size:60px;" >Creadores</h1>
+	 <!-----start-main---->
+	 <div class="main">
+		<div class="login-form">
+			<h1>Panel de Administración</h1>
+					<div class="head">
+						<img style="width:102.95px;" src="assets/img/logo-multiesencia.png" alt=""/>
 					</div>
-				</div>
-			</div>
-			<div class="login-inferior row">
-				<div class="container">
-					<div class="col-md-12">
-						<form action="index2.php" class="form-horizontal">
-						  <div class="form-group">
-							<label for="inputEmail3" class="col-sm-2 control-label">Email</label>
-							<div class="col-sm-10">
-							  <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
-							</div>
-						  </div>
-						  <div class="form-group">
-							<label for="inputPassword3" class="col-sm-2 control-label">Password</label>
-							<div class="col-sm-10">
-							  <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
-							</div>
-						  </div>
-						  <div class="form-group">
-							<div class="col-sm-offset-2 col-sm-10">
-							  <div class="checkbox">
-								<label>
-								  <input type="checkbox"> Remember me
-								</label>
-							  </div>
-							</div>
-						  </div>
-						  <div class="form-group">
-							<div class="col-sm-offset-2 col-sm-10">
-							  <button type="submit" class="btn btn-default">Sign in</button>
-							</div>
-						  </div>
-						</form>
-					</div>
-				</div>
+				<form action="index2.php">
+						<input type="text" class="text" value="Usuario" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Usuario';}" >
+						<input type="password" value="Contraseña" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Contraseña';}">
+						<div class="submit">
+							<input type="submit" onclick="myFunction()" value="ENTRAR" >
+					</div>	
+					<p><a href="#">Has olvidado la contraseña?</a></p>
+				</form>
 			</div>
 		</div>
-    </body>
+		 		
+</body>
 </html>
