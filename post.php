@@ -233,30 +233,28 @@
                             <!-- COMENTARIO DE USUAIRO -->
                             <div class="comentarios row">
                                 <div class="col-md-4 col-xs-12">
-                                    <div>
-                                        <div class="info-usuario">
-                                            <div>
-                                                <p class="nombre-usuario">
-                                                    Alvaro Martín<br>
-                                                    <span>Hace unos segundos</span>
-                                                </p>
-                                                <div class="puntuacion-usuario">
-                                                    12<a href="#" class="positivo fa fa-sort-asc fa-1x fa-fw" aria-hidden="true"></a>
-                                                    12<a href="#" class="negativo fa fa-sort-desc fa-1x fa-fw" aria-hidden="true"></a>
-                                                </div>
-                                            </div>
-                                            <div>
-                                                <a href="#">
-                                                    <img class="foto-usuario" src="https://www.placecage.com/55/55" alt="...">
-                                                </a>
-                                            </div>
-                                        </div>
-                                        <p>
-                                            <a href="#" style="color:#65B853; font-size:10px; float:right;">Responder</a>
-                                        </p>
-                                    </div>
+									<div class="info-usuario">
+										<div>
+											<p class="nombre-usuario">
+												Alvaro Martín<br>
+												<span>Hace unos segundos</span>
+											</p>
+											<div class="puntuacion-usuario">
+												12<a href="#" class="positivo fa fa-sort-asc fa-1x fa-fw" aria-hidden="true"></a>
+												12<a href="#" class="negativo fa fa-sort-desc fa-1x fa-fw" aria-hidden="true"></a>
+											</div>
+										</div>
+										<div>
+											<a href="#">
+												<img class="foto-usuario" src="https://www.placecage.com/55/55" alt="...">
+											</a>
+										</div>
+									</div>
+									<p>
+										<a href="#" style="color:#65B853; font-size:10px; float:right;">Responder</a>
+									</p>
                                 </div>
-                                <div class="col-md-8">
+                                <div class="col-md-8 col-xs-12">
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>    
                                 </div>
                             </div>
