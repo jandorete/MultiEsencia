@@ -19,6 +19,12 @@ html {
     #sidebar-right{
         display:none;
     }
+	.imagen-destacada {
+    padding:0px !important;
+	}
+	.imagen-destacada>a>h1 {
+    font-size: 30px !important;
+	}
 	.grupo-noticias {
     margin-top: 20px;
     margin-bottom: 20px;

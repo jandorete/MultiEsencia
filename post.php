@@ -17,7 +17,7 @@
                         <div class="col-md-12 imagen-destacada">
                             <a href="#">
                                 <h1>Titulo de la noticia</h1>
-                                <img alt="Prueba" src="https://www.tutecnomundo.com/wp-content/uploads/2017/04/xiaomi-mi-6-precio.jpg" class="img-responsive" />
+                                <img alt="Prueba" src="http://placehold.it/820x470" class="img-responsive" />
                             </a>
                         </div>
                     </div>
@@ -203,48 +203,36 @@
                                     <i class="fa fa-bullhorn fa-fw" aria-hidden="true"></i>&nbsp; Anúnciate</a>
                                 </div>
                             </div>
-                            <div class="row">
-                            <h2 class="subtitulo">Recomendado por el autor</h2>
-                                <div class="col-md-4 col-xs-12">
-                                    <header class="titular">Titulo de noticia</header>
-                                    <a class="titulo-noticia-reciente" href="#">
-                                        <img class="img-noticia-reciente" alt="Prueba" src="https://www.tutecnomundo.com/wp-content/uploads/2017/04/xiaomi-mi-6-precio.jpg" />
-                                    </a>
-                                </div>
-                                <div class="col-md-4 col-xs-12">
-                                    <header class="titular">Titulo de noticia</header>
-                                    <a class="titulo-noticia-reciente" href="#">
-                                        <img class="img-noticia-reciente" alt="Prueba" src="https://www.tutecnomundo.com/wp-content/uploads/2017/04/xiaomi-mi-6-precio.jpg" />
-                                    </a>
-                                </div>
-                                <div class="col-md-4 col-xs-12">
-                                    <header class="titular">Titulo de noticia</header>
-                                    <a class="titulo-noticia-reciente" href="#">
-                                        <img class="img-noticia-reciente" alt="Prueba" src="https://www.tutecnomundo.com/wp-content/uploads/2017/04/xiaomi-mi-6-precio.jpg" />
-                                    </a>
-                                </div>
-                            </div>
-                            <div style="border: 1px solid #E2E2E2; height: 1px; margin: 30px 0; width: 100%;" class="separador"></div>
-                            <div class="row">
-                                <div class="col-md-4 col-xs-12">
-                                    <p>Titulo de noticia</p>
-                                    <a class="titulo-noticia-reciente" href="#">
-                                        <img class="img-noticia-reciente" alt="Prueba" src="https://www.tutecnomundo.com/wp-content/uploads/2017/04/xiaomi-mi-6-precio.jpg" />
-                                    </a>
-                                </div>
-                                <div class="col-md-4 col-xs-12">
-                                    <p>Titulo de noticia</p>
-                                    <a class="titulo-noticia-reciente" href="#">
-                                        <img class="img-noticia-reciente" alt="Prueba" src="https://www.tutecnomundo.com/wp-content/uploads/2017/04/xiaomi-mi-6-precio.jpg" />
-                                    </a>
-                                </div>
-                                <div class="col-md-4 col-xs-12">
-                                    <p>Titulo de noticia</p>
-                                    <a class="titulo-noticia-reciente" href="#">
-                                        <img class="img-noticia-reciente" alt="Prueba" src="https://www.tutecnomundo.com/wp-content/uploads/2017/04/xiaomi-mi-6-precio.jpg" />
-                                    </a>
-                                </div>
-                            </div>
+							<p style="font-size:24px; font-weight:600; padding-top:1rem;" >Recomendado por el autor</p>
+                            <div class="row grupo-noticias">
+								<article class="col-sm-4 col-xs-12">
+									<header class="titular"><h2><a href="post.php">Lorem ipsum dolor sit amet</a></h2></header>
+										<a href="post.php"><img src="http://placehold.it/820x470" class="img-responsive"></a>
+								</article>
+								<article class="col-sm-4 col-xs-12">
+									<header class="titular"><h2><a href="post.php">Lorem ipsum dolor sit amet</a></h2></header>
+										<a href="post.php"><img src="http://placehold.it/820x470" class="img-responsive"></a>
+								</article>
+								<article class="col-sm-4 col-xs-12">
+									<header class="titular"><h2><a href="post.php">Lorem ipsum dolor sit amet</a></h2></header>
+										<a href="post.php"><img src="http://placehold.it/820x470" class="img-responsive"></a>
+								</article>
+							</div>
+							 <div style="border: 1px solid #E2E2E2; height: 1px; margin: 25px 0; width: 100%;"></div>
+							<div class="row grupo-noticias">
+								<article class="col-sm-4 col-xs-12">
+									<header class="titular"><h2><a href="post.php">Lorem ipsum dolor sit amet</a></h2></header>
+										<a href="post.php"><img src="http://placehold.it/820x470" class="img-responsive"></a>
+								</article>
+								<article class="col-sm-4 col-xs-12">
+									<header class="titular"><h2><a href="post.php">Lorem ipsum dolor sit amet</a></h2></header>
+										<a href="post.php"><img src="http://placehold.it/820x470" class="img-responsive"></a>
+								</article>
+								<article class="col-sm-4 col-xs-12">
+									<header class="titular"><h2><a href="post.php">Lorem ipsum dolor sit amet</a></h2></header>
+										<a href="post.php"><img src="http://placehold.it/820x470" class="img-responsive"></a>
+								</article>
+							</div>
                             <br><br>
                             <div style="background:black; height:150px; width:100%;">
                                 <div style="background:#e2e2e2; position:relative; top:120px; width:115px; height:30px; padding:5px;">
@@ -269,13 +257,13 @@
                                 </div>
                                 <div style="display:flex; align-items:center; justify-content:flex-end; align-items:center;"; class="col-md-12">
                                         <p style="position:relative; right:10px;">Tu red social</p>
-                                        <div style="display:flex; align-items:center; justify-content:space-between; width:500px;" class="redes">
-                                            <a href="#" style="color:white; border-radius:4px 4px 4px 4px; background:#3E62A3;padding:0.5rem;width:130px; text-align:center;">Facebook&nbsp;<i style="position:relative; top:3px;float:right;" class="fa fa-facebook fa-fw" aria-hidden="true"></i></a>
-                                            <a href="#" style="color:white; border-radius:4px 4px 4px 4px; background:#DE4C40;padding:0.5rem;width:130px; text-align:center;">Google+&nbsp;<i style="position:relative; top:3px;float:right;" class="fa fa-google fa-fw" aria-hidden="true"></i></a>
-                                            <a href="#" style="color:white; border-radius:4px 4px 4px 4px; background:#3CC7F4;padding:0.5rem; width:130px; text-align:center;">Twitter&nbsp;<i style="position:relative; top:3px;float:right; "class="fa fa-twitter fa-fw" aria-hidden="true"></i></a>
+                                        <div style="display:flex; align-items:center; justify-content:flex-end; width:500px;" class="redes">
+                                            <a href="#" style="color:white; margin-right: 0.5rem; border-radius:4px 4px 4px 4px; background:#3E62A3;padding:0.5rem;text-align:center;">Facebook&nbsp;<i style="position:relative; top:3px;float:right;" class="fa fa-facebook fa-fw" aria-hidden="true"></i></a>
+                                            <a href="#" style="color:white; margin-right: 0.5rem;border-radius:4px 4px 4px 4px; background:#DE4C40;padding:0.5rem;text-align:center;">Google+&nbsp;<i style="position:relative; top:3px;float:right;" class="fa fa-google fa-fw" aria-hidden="true"></i></a>
+                                            <a href="#" style="color:white; border-radius:4px 4px 4px 4px; background:#3CC7F4;padding:0.5rem;text-align:center;">Twitter&nbsp;<i style="position:relative; top:3px;float:right; "class="fa fa-twitter fa-fw" aria-hidden="true"></i></a>
                                         </div>
                                 </div>
-                                <div style="display:flex; justify-content:flex-end; align-items:center;padding: 40px 0 0 0;" class="col-md-12">
+                                <div style="display:flex; justify-content:flex-end; align-items:center;padding-top:2rem;" class="col-md-12">
                                     <a href="#" style="position:relative; right:10px; color:white; background:#65B853;padding:1rem; width:120px; text-align:center;">Enviar</a>
                                     <div style="width:500px;">
                                         <p style="position:relative;">No haremos publicaciones sin tu permiso.</p>
