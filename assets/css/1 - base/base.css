@@ -124,6 +124,12 @@ hr {
     margin-top: 10px;
     margin-bottom: 10px;
 }
+@media only screen and (min-width: 1200px) {
+	.grupo-noticias {
+		display: flex;
+		align-items: center;
+	}
+}
 @media only screen and (max-width: 1200px) {
     .titular {
         margin-bottom: 20px;

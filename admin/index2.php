@@ -60,17 +60,17 @@
                                 <div class="col-lg-8 col-lg-push-4 col-xs-12">
                                     <article>
                                         <header style="position:absolute; right:20px; max-width:400px;"><h2 class="destacada"><a href="post.php"  style="color:white;">Lorem ipsum dolor sit amet</a></h2></header>
-                                        <a href="post.php"><img src="assets/img/articulos/7.jpg" class="img-responsive destacada center-block"></a>
+                                        <a href="post.php"><img src="http://placehold.it/820x470" class="img-responsive destacada center-block"></a>
                                     </article>
                                 </div>
-                                <div class="col-lg-4 col-lg-pull-8 col-xs-12">
+                                <div style="padding: 0px;" class="col-lg-4 col-lg-pull-8 col-xs-12">
                                     <article class="col-lg-12 col-sm-6 col-xs-12">
                                         <header><h2 class="titular"><a href="post.php">Lorem ipsum dolor sit amet</a></h2></header>
-                                        <a href="post.php"><img src="assets/img/articulos/2.jpg" class="img-responsive img-noticia"></a>
+                                        <a href="post.php"><img src="http://placehold.it/820x470" class="img-responsive img-noticia"></a>
                                     </article>
                                     <article class="col-lg-12 col-sm-6 col-xs-12">
                                         <header><h2 class="titular"><a href="post.php">Lorem ipsum dolor sit amet</a></h2></header>
-                                        <a href="post.php"><img src="assets/img/articulos/6.jpg" class="img-responsive"></a>
+                                        <a href="post.php"><img src="http://placehold.it/820x470" class="img-responsive"></a>
                                     </article>
                                 </div>
                              </div>                            
@@ -80,42 +80,35 @@
 							<div class="row grupo-noticias">
 								<article class="col-sm-4 col-xs-12">
 									<header class="titular"><h2><a href="post.php">Lorem ipsum dolor sit amet</a></h2></header>
-										<a href="post.php"><img src="assets/img/articulos/3.jpg" class="img-responsive"></a>
+										<a href="post.php"><img src="http://placehold.it/820x470" class="img-responsive"></a>
 								</article>
 								<article class="col-sm-4 col-xs-12">
 									<header class="titular"><h2><a href="post.php">Lorem ipsum dolor sit amet</a></h2></header>
-										<a href="post.php"><img src="assets/img/articulos/4.jpg" class="img-responsive"></a>
+										<a href="post.php"><img src="http://placehold.it/820x470" class="img-responsive"></a>
 								</article>
 								<article class="col-sm-4 col-xs-12">
 									<header class="titular"><h2><a href="post.php">Lorem ipsum dolor sit amet</a></h2></header>
-										<a href="post.php"><img src="assets/img/articulos/5.jpg" class="img-responsive"></a>
+										<a href="post.php"><img src="http://placehold.it/820x470" class="img-responsive"></a>
 								</article>
-							</div>
-
-							 <!-- anuncio -->
-							<div style="background:black; height:150px; width:100%; margin-top:25px; margin-bottom:25px;">
-								<div style="background:#e2e2e2; position:relative; top:120px; width:115px; height:30px; padding:5px;">
-									<i class="fa fa-bullhorn fa-fw" aria-hidden="true"></i>&nbsp; Anúnciate
-								</div>
 							</div>
 						</section>
-						
+						<div style="border: 1px solid #E2E2E2; height: 1px; margin: 25px 0; width: 100%;"></div>
 						<section>
 							<div class="row grupo-noticias">
 								<div class="col-lg-8 col-xs-12">
 									<article>
 										<header style="position:absolute; right:20px; max-width:400px;"><h2 class="destacada"><a href="post.php"  style="color:white;">Lorem ipsum dolor sit amet</a></h2></header>
-										<a href="post.php"><img src="assets/img/articulos/7.jpg" class="img-responsive destacada"></a>
+										<a href="post.php"><img src="http://placehold.it/820x470" class="img-responsive destacada"></a>
 									</article>
 								</div>
-								<div class="col-lg-4 col-xs-12">
+								<div style="padding: 0px;" class="col-lg-4 col-xs-12">
 									<article class="col-lg-12 col-sm-6 col-xs-12">
 										<header class="titular"><h2><a href="post.php">Lorem ipsum dolor sit amet</a></h2></header>
-										<a href="post.php"><img src="assets/img/articulos/2.jpg" class="img-responsive img-noticia"></a>
+										<a href="post.php"><img src="http://placehold.it/820x470" class="img-responsive img-noticia"></a>
 									</article>
 									<article class="col-lg-12 col-sm-6 col-xs-12">
 										<header class="titular"><h2><a href="post.php">Lorem ipsum dolor sit amet</a></h2></header>
-										<a href="post.php"><img src="assets/img/articulos/6.jpg" class="img-responsive"></a>
+										<a href="post.php"><img src="http://placehold.it/820x470" class="img-responsive"></a>
 									</article>
 								</div>
 							</div>                            
@@ -125,23 +118,16 @@
 							<div class="row grupo-noticias">
 								<article class="col-sm-4 col-xs-12">
 									<header class="titular"><h2><a href="post.php">Lorem ipsum dolor sit amet</a></h2></header>
-										<a href="post.php"><img src="assets/img/articulos/3.jpg" class="img-responsive"></a>
+										<a href="post.php"><img src="http://placehold.it/820x470" class="img-responsive"></a>
 								</article>
 								<article class="col-sm-4 col-xs-12">
 									<header class="titular"><h2><a href="post.php">Lorem ipsum dolor sit amet</a></h2></header>
-										<a href="post.php"><img src="assets/img/articulos/4.jpg" class="img-responsive"></a>
+										<a href="post.php"><img src="http://placehold.it/820x470" class="img-responsive"></a>
 								</article>
 								<article class="col-sm-4 col-xs-12">
 									<header class="titular"><h2><a href="post.php">Lorem ipsum dolor sit amet</a></h2></header>
-										<a href="post.php"><img src="assets/img/articulos/5.jpg" class="img-responsive"></a>
+										<a href="post.php"><img src="http://placehold.it/820x470" class="img-responsive"></a>
 								</article>
-							</div>
-
-							 <!-- anuncio -->
-							<div style="background:black; height:150px; width:100%; margin-top:25px; margin-bottom:25px;">
-								<div style="background:#e2e2e2; position:relative; top:120px; width:115px; height:30px; padding:5px;">
-									<i class="fa fa-bullhorn fa-fw" aria-hidden="true"></i>&nbsp; Anúnciate
-								</div>
 							</div>
 						</section>
 						

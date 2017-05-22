@@ -14,15 +14,6 @@
 		body{
 			background-color: #d9af05;
 		}
-		.login-superior {
-			background-color: #f3c600;
-			height:50vh;
-		}
-		.login-inferior {
-			padding-top:3rem;
-			height:50vh;
-		}
-
 		</style>
     </head>
     <body>
