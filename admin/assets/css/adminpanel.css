@@ -27,7 +27,7 @@ img{max-width:100%;}
     padding-top: 75px;
 }
 body{
-	background:#F7DA55;
+/*	background:#F7DA55;*/
  	font-family: 'Open Sans', sans-serif;
 
 }
@@ -242,6 +242,7 @@ input[type="submit"]:hover{
 	font-weight: 600;
 	margin-bottom: 4%;
 	}
+}
 @media (max-width:320px){                                  
 	.login-form  {
 		margin:20% auto 0;
@@ -275,6 +276,18 @@ input[type="submit"]:hover{
 input[type="password"]{
 	width: 100%;
 }
+    
 input.text {
     width: 100%;
+}
+
+/****************************** REDACCION ******************************/
+.input-redaccion {
+    background: white !important;
+    border-color: white !important;
+    border-radius: 0px !important;
+}
+
+.container {
+    margin-top: 50px;
 }
