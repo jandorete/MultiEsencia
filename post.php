@@ -101,10 +101,10 @@
 							</div>
                         </div>
                         <div class="sidebar-noticia-smartphone col-xs-12">
-								<div style="justify-content:flex-start;" class="col-xs-6 info-autor">
+								<div style="justify-content:flex-start;" class="col-xs-8 info-autor">
 									<div>
 										<a href="#">
-											<img class="foto-autor" src="https://www.placecage.com/55/55" alt="...">
+											<img style="height:30px;" class="foto-autor" src="https://www.placecage.com/55/55" alt="...">
 										</a>
 									</div>
 									<div class="info-autor-content">
@@ -112,23 +112,23 @@
 										
 									</div>
 								</div>
-								<div class="col-xs-3 info-autor">
+								<div class="col-xs-2 info-autor">
 									<div class="info-autor-content">
 										<p class="texto-autor">27K</p>
 									</div>
 									<div>
 										<a href="#">
-											<i class="fa fa-3x fa-eye" aria-hidden="true"></i>
+											<i class="fa fa-2x fa-eye" aria-hidden="true"></i>
 										</a>
 									</div>
 								</div>
-								<div class="col-xs-3 info-autor">
+								<div class="col-xs-2 info-autor">
 									<div class="info-autor-content">
 										<p class="texto-autor">2</p>
 									</div>
 									<div>
 										<a href="#">
-											<i class="fa fa-3x fa-commenting" aria-hidden="true"></i>
+											<i class="fa fa-2x fa-commenting" aria-hidden="true"></i>
 										</a>
 									</div>
 								</div>
