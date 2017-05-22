@@ -17,6 +17,11 @@ html {
     .sidebar-noticia-desktop{
         display:none;
     }
+	.sidebar-noticia-smartphone
+	{
+		display:inline;
+		padding:0px;
+	}
 	
 }
 @media only screen and (max-width: 768px) {
@@ -32,11 +37,7 @@ html {
 	.texto-autor{
 	font-size:12px;
 	}
-	.sidebar-noticia-smartphone
-	{
-		display:inline;
-		padding:0px;
-	}
+	
 
 	.grupo-noticias {
     margin-top: 20px;
@@ -133,8 +134,11 @@ hr {
         display: none;
     }
     .texto-logo {
-        font-size: 1em;
+        font-size: 0.8em;
     }
+	.nav-logo img {
+    height: 30px !important;
+	}
 }
 
 /****************** PORTADA *************************/
