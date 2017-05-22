@@ -100,22 +100,21 @@
 								</div>
 							</div>
                         </div>
-                        <div style="display:none;" class="sidebar-noticia-smartphone col-xs-12">
-							
-								<div class="info-autor">
-									<div class="info-autor-content">
-										<p class="texto-autor" style="text-align:right;"><b>Autor</b></p>
-										<p class="texto-autor">Antonio Serna</p>
-									</div>
+                        <div class="sidebar-noticia-smartphone col-xs-12">
+								<div style="justify-content:flex-start;" class="col-xs-6 info-autor">
 									<div>
 										<a href="#">
 											<img class="foto-autor" src="https://www.placecage.com/55/55" alt="...">
 										</a>
 									</div>
-								</div>
-								<div class="info-autor">
 									<div class="info-autor-content">
-										<p class="texto-autor">Leido por 26.793 personas</p>
+										<p class="texto-autor" style="text-align:left; padding-left:0.5rem;"><b>Autor</b><br>Antonio Serna</p>
+										
+									</div>
+								</div>
+								<div class="col-xs-3 info-autor">
+									<div class="info-autor-content">
+										<p class="texto-autor">27K</p>
 									</div>
 									<div>
 										<a href="#">
@@ -123,9 +122,9 @@
 										</a>
 									</div>
 								</div>
-								<div class="info-autor">
+								<div class="col-xs-3 info-autor">
 									<div class="info-autor-content">
-										<p class="texto-autor">Comentado por 2 personas</p>
+										<p class="texto-autor">2</p>
 									</div>
 									<div>
 										<a href="#">
@@ -133,48 +132,7 @@
 										</a>
 									</div>
 								</div>
-								<div style="border: 1px solid #E2E2E2; height: 1px; margin: 20px 0 0 0; width: 100%;" class="separador"></div>
 								<br>
-								<div style="padding-top:0px;" class="info-autor">
-									<div class="info-autor-content">
-										<p class="texto-autor">Compartido por 2 personas</p>
-									</div>
-									<div>
-										<a href="#">
-											<i class="fa fa-3x fa-share-alt" aria-hidden="true"></i>
-										</a>
-									</div>
-								</div>
-								<div class="info-autor">
-									<div class="info-autor-content">
-										<p style="color:#3b5998;">Facebook</p>
-									</div>
-									<div>
-										<a href="#">
-											<img style="width:45px;" src="assets/img/iconosredes/facebook.png"/>
-										</a>
-									</div>
-								</div>
-								<div class="info-autor">
-									<div class="info-autor-content">
-										<p style="color:#d62d20;">Google</p>
-									</div>
-									<div>
-										<a href="#">
-											<img style="width:45px;" src="assets/img/iconosredes/google.png"/>
-										</a>
-									</div>
-								</div>
-								<div class="info-autor">
-									<div class="info-autor-content">
-										<p style="color:#00aced;">Twitter</p>
-									</div>
-									<div>
-										<a href="#">
-											<img style="width:45px;" src="assets/img/iconosredes/twitter.png"/>
-										</a>
-									</div>
-							</div>
                         </div>
                         
 						<!-- CONTENEDOR NOTICIA -->

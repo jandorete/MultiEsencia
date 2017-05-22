@@ -9,6 +9,10 @@ html {
     margin-right: 0px;
     margin-left: 0px;
 }
+.sidebar-noticia-smartphone
+	{
+		display:none;
+	}
 @media only screen and (max-width: 1200px) {
     .sidebar-noticia-desktop{
         display:none;
@@ -25,6 +29,15 @@ html {
 	.imagen-destacada>a>h1 {
     font-size: 30px !important;
 	}
+	.texto-autor{
+	font-size:12px;
+	}
+	.sidebar-noticia-smartphone
+	{
+		display:inline;
+		padding:0px;
+	}
+
 	.grupo-noticias {
     margin-top: 20px;
     margin-bottom: 20px;
