@@ -18,7 +18,7 @@
 							<div class="col-sm-3"><!--left col-->
 								  
 							  <ul class="list-group">
-								<li class="list-group-item text-muted">Perfil</li>
+								<li class="list-group-item text-muted"><i class="fa fa-user fa-1x"></i>&nbsp;Perfil</li>
 								<li class="list-group-item text-right"><span class="pull-left"><strong>Registrado</strong></span> 24-05-2017</li>
 								<li class="list-group-item text-right"><span class="pull-left"><strong>Conectado</strong></span> Hace 23min</li>
 								<li class="list-group-item text-right"><span class="pull-left"><strong>Nombre completo</strong></span> Antonio Jesus Serna Orts</li>
@@ -27,19 +27,12 @@
 							  
 							  
 							  <ul class="list-group">
-								<li class="list-group-item text-muted">Actividad&nbsp;<i class="fa fa-dashboard fa-1x"></i></li>
+								<li class="list-group-item text-muted"><i class="fa fa-dashboard fa-1x"></i>&nbsp;Actividad</li>
 								<li class="list-group-item text-right"><span class="pull-left"><strong>Articulos</strong></span> 125</li>
 								<li class="list-group-item text-right"><span class="pull-left"><strong>Ganancias este mes</strong></span> 13 €</li>
 								<li class="list-group-item text-right"><span class="pull-left"><strong>Comentarios en articulos</strong></span> 37</li>
 								<li class="list-group-item text-right"><span class="pull-left"><strong>Votos positivos</strong></span> 78</li>
 							  </ul> 
-								   
-							  <div class="panel panel-default">
-								<div class="panel-heading">Redes sociales</div>
-								<div class="panel-body">
-									<i class="fa fa-facebook fa-2x"></i> <i class="fa fa-github fa-2x"></i> <i class="fa fa-twitter fa-2x"></i> <i class="fa fa-pinterest fa-2x"></i> <i class="fa fa-google-plus fa-2x"></i>
-								</div>
-							  </div>
 							  
 							</div><!--/col-3-->
 							<div class="col-sm-9">

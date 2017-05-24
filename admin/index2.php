@@ -8,9 +8,11 @@
         <?php include 'header.php'; ?>
 				<section>
 					<div class="row center" style="padding-top:50px; background:#f3f3f3;">
-						<div class="col-lg-12" style="display:flex; padding:1rem; align-items:center; justify-content:center;">
+						<div class="col-lg-12">
+							<a style="text-decoration:none; display:flex; padding:1rem; align-items:center; justify-content:center;" href="redaccion.php">
 							<i class="textcolor-tutecnomundo fa fa-3x fa-plus-circle" aria-hidden="true"></i>
 							<h2 style="font-size:22px;" >&nbsp; Crear Post (22/30)</h2>
+							</a>
 						</div>
 					</div>
 				</section>
@@ -27,9 +29,11 @@
 				</section>
 				<section>
 					<div class="row center" style="background:#f3f3f3;">
-						<div class="col-lg-12" style="display:flex; padding:1rem; align-items:center; justify-content:center;">
-							<i class="textcolor-tutecnomundo fa fa-3x fa-arrow-circle-down" aria-hidden="true"></i>
-							<h2 style="font-size:22px;" >&nbsp; Moderar comentarios</h2>
+						<div class="col-lg-12">
+							<a style="text-decoration:none; display:flex; padding:1rem; align-items:center; justify-content:center;" href="perfil.php">
+								<i class="textcolor-tutecnomundo fa fa-3x fa-arrow-circle-down" aria-hidden="true"></i>
+								<h2 style="font-size:22px;" >&nbsp; Moderar comentarios</h2>
+							</a>
 						</div>
 					</div>
 				</section>
@@ -41,10 +45,7 @@
 								<div class="row" style="padding-top:1rem;">
 									<div class="col-lg-12">
 										<div style="display:flex; align-items:center;" class="buscador" id="custom-search-input">
-											<div class="col-md-2">
-												<h2 style="font-size:20px;text-align:right;padding-right:1rem;" >Buscador</h2>
-											</div>
-											<div class="input-group col-md-10">
+											<div class="input-group col-md-12">
 												<input style="border: 2px solid #65B853; border-radius:0px; padding:25px; background: white;" type="text" class="form-control input-lg" placeholder="Escribe para buscar..." />
 												<span class="input-group-btn">
 													<button style="color:white; background:#65B853;padding:1rem; width:120px; border-radius:0px; text-align:center;" class="btn " type="button">

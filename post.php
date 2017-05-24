@@ -198,7 +198,7 @@
                                 </div>
                             </div>
                             <br><br>
-                            <div class="row">
+                            <!--div class="row">
                                 <div class="col-md-6">
                                     <h2>2 Comentarios</h2>
                                 </div>
@@ -227,12 +227,12 @@
                                         <p style="position:relative;">No haremos publicaciones sin tu permiso.</p>
                                     </div>
                                 </div>
-                            </div>
+                            </div-->
                             <div style="border: 1px solid #E2E2E2; height: 1px; margin: 30px 0; width: 100%;" class="separador"></div>
 
                             <!-- COMENTARIO DE USUAIRO -->
                             <div class="comentarios row">
-                                <div class="col-md-4 col-xs-12">
+                                <!--div class="col-md-4 col-xs-12">
 									<div class="info-usuario">
 										<div>
 											<p class="nombre-usuario">
@@ -256,7 +256,29 @@
                                 </div>
                                 <div class="col-md-8 col-xs-12">
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>    
-                                </div>
+                                </div-->
+								<div id="disqus_thread"></div>
+								<script>
+									/**
+									 *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+									 *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+									 */
+									/*
+									var disqus_config = function () {
+										this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+										this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+									};
+									*/
+									(function() {  // REQUIRED CONFIGURATION VARIABLE: EDIT THE SHORTNAME BELOW
+										var d = document, s = d.createElement('script');
+										
+										s.src = 'https://multiesencia.disqus.com/embed.js';  // IMPORTANT: Replace EXAMPLE with your forum shortname!
+										
+										s.setAttribute('data-timestamp', +new Date());
+										(d.head || d.body).appendChild(s);
+									})();
+								</script>
+								<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
                             </div>
 
                         </div>
