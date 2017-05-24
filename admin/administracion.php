@@ -6,35 +6,6 @@
 	</head>
     <body>
         <?php include 'header.php'; ?>
-			<div class="container-fluid">
-				<section>
-					<div class="row center" style="background:#f3f3f3;">
-						<div class="col-lg-12" style="display:flex; padding:1rem; align-items:center; justify-content:center;">
-							<i class="textcolor-tutecnomundo fa fa-3x fa-plus-circle" aria-hidden="true"></i>
-							<h2 style="font-size:22px;" >&nbsp; Crear Post (22/30)</h2>
-						</div>
-					</div>
-				</section>
-				<section>
-					<div class="row center" style="padding-top:2rem;">
-						<div class="col-lg-12">
-							<h2 style="font-size:24px;" >Actualmente escribiendo sobre...</h2><br>
-							<h2 style="font-weight:500;font-size:20px;" >Whatsapp se actualiza con algunas novedades</h2><br>
-							<h2 style="font-weight:500;font-size:20px;" >HTC 10: Especificaciones y diseño filtrados</h2><br>
-							<h2 style="font-weight:500;font-size:20px;" >Una variante del HTC M10 equipará Snapdragon 652 y 3GB de RAM</h2><br>
-							<h2 style="font-weight:500;font-size:20px;" >iOS y Android, ¿cada vez más parecidos?</h2><br>
-						</div>
-					</div>
-				</section>
-				<section>
-					<div class="row center" style="background:#f3f3f3;">
-						<div class="col-lg-12" style="display:flex; padding:1rem; align-items:center; justify-content:center;">
-							<i class="textcolor-tutecnomundo fa fa-3x fa-arrow-circle-down" aria-hidden="true"></i>
-							<h2 style="font-size:22px;" >&nbsp; Moderar comentarios</h2>
-						</div>
-					</div>
-				</section>
-			</div>
 			<div class="container">
             
 				<div class="row">
