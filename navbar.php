@@ -31,5 +31,9 @@
         <form class="" action="" method="post">
             <input type="search" name="name" value="" id="search-box" placeholder="Escribe aquí tu busqueda">
         </form>
+		<article class="col-sm-12 col-xs-12">
+			<header class="titular"><h2><a href="post.php">Lorem ipsum dolor sit amet</a></h2></header>
+				<a href="post.php"><img src="http://placehold.it/820x470" class="img-responsive"></a>
+		</article>
     </div>
 </aside>
