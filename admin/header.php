@@ -24,7 +24,7 @@
                     </a>
                 </li>
                 <li class="nav-link">
-                    <a href="index2.php" id="search-btn">
+                    <a href="administracion.php" id="search-btn">
                         <i class="fa fa-area-chart fa-lg" aria-hidden="true"></i>&nbsp;
                         <span class="texto-cabecera">Administración</span>
                     </a>
