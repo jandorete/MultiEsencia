@@ -6,9 +6,8 @@
 	</head>
     <body>
         <?php include 'header.php'; ?>
-			<div class="container-fluid">
 				<section>
-					<div class="row center" style="background:#f3f3f3;">
+					<div class="row center" style="padding-top:50px; background:#f3f3f3;">
 						<div class="col-lg-12" style="display:flex; padding:1rem; align-items:center; justify-content:center;">
 							<i class="textcolor-tutecnomundo fa fa-3x fa-plus-circle" aria-hidden="true"></i>
 							<h2 style="font-size:22px;" >&nbsp; Crear Post (22/30)</h2>
@@ -34,7 +33,6 @@
 						</div>
 					</div>
 				</section>
-			</div>
 			<div class="container">
             
 				<div class="row">

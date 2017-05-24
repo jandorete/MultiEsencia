@@ -1,5 +1,5 @@
-<div class="col-md-4 col-sm-12">
-    <aside id="sidebar-right" class="sidebar flex justify-start items-start bgcolor-sidebar">
+<div class="col-md-3 col-sm-12">
+    <aside class="sidebar-right sidebar flex justify-start items-start bgcolor-sidebar">
 			<section>
 				<a href="#" class="categoria-sidebar-right bgcolor-tutecnomundo">
 					<div class="shape-invertido bgcolor-tutecnomundo">Síguenos en Redes</div>

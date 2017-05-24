@@ -12,7 +12,7 @@ main {
   clear: both;
 }
 
-#sidebar-right {
+.sidebar-right {
   width: 300px;
 
   height: 100%;
