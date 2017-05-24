@@ -1,6 +1,6 @@
 <footer id="footer">
 	<section id="footer-bottom">
-		<div style="padding-top:15px;" class="container">
+		<div style="padding:15px;" class="container">
 					<div id="copyright">
 						<p style="display: flex;
 								  justify-content: center;

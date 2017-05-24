@@ -38,18 +38,19 @@
 			<div class="container">
             
 				<div class="row">
-					<?php include 'navbar.php'; ?>
 					<div class="col-md-12 col-sm-12 content">
 						<section>
 								<div class="row" style="padding-top:1rem;">
 									<div class="col-lg-12">
-										<h2 style="font-size:24px;" >Buscar en TuTecnoMundo</h2><br>
-										<div id="custom-search-input">
-											<div class="input-group col-md-12">
-												<input type="text" class="form-control input-lg" placeholder="Buscar" />
+										<div style="display:flex; align-items:center;" class="buscador" id="custom-search-input">
+											<div class="col-md-2">
+												<h2 style="font-size:20px;text-align:right;padding-right:1rem;" >Buscador</h2>
+											</div>
+											<div class="input-group col-md-10">
+												<input style="border: 2px solid #65B853; border-radius:0px; padding:25px; background: white;" type="text" class="form-control input-lg" placeholder="Escribe para buscar..." />
 												<span class="input-group-btn">
-													<button class="btn btn-info btn-lg" type="button">
-														<i class="glyphicon glyphicon-search"></i>
+													<button style="color:white; background:#65B853;padding:1rem; width:120px; border-radius:0px; text-align:center;" class="btn " type="button">
+														Aceptar
 													</button>
 												</span>
 											</div>

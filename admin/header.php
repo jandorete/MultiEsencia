@@ -18,7 +18,7 @@
                     </a>
                 </li>
 				<li class="nav-link">
-                    <a href="#" id="search-btn">
+                    <a href="perfil.php" id="search-btn">
                         <i class="fa fa-user fa-lg" aria-hidden="true"></i>&nbsp;
                         <span class="texto-cabecera">Mi perfil</span>
                     </a>
