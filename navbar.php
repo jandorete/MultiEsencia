@@ -1,4 +1,4 @@
-<aside data-spy="affix" data-offset-top="100" id="sidebar-nav" class="sidebar flex justify-end items-start right-align bgcolor-sidebar">
+<aside id="sidebar-nav" class="sidebar flex justify-end items-start right-align bgcolor-sidebar">
     <div id="categorias-lista">
         <a href="#" class="categoria-sidebar bgcolor-tutecnomundo">
             <div class="shape bgcolor-tutecnomundo">Noticias</div>

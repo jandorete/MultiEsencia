@@ -13,45 +13,6 @@ html {
 	{
 		display:none;
 	}
-@media only screen and (max-width: 1200px) {
-    .sidebar-noticia-desktop{
-        display:none;
-    }
-	.sidebar-noticia-smartphone
-	{
-		display:inline;
-		padding:0px;
-	}
-	
-}
-@media only screen and (max-width: 990px) {
-    .sidebar-right{
-        display:none !important;
-    }
-}
-@media only screen and (max-width: 768px) {
-	.imagen-destacada {
-    padding:0px !important;
-	}
-	.imagen-destacada>a>h1 {
-    font-size: 30px !important;
-	}
-	.texto-autor{
-	font-size:12px;
-	}
-	
-
-	.grupo-noticias {
-    margin-top: 20px;
-    margin-bottom: 20px;
-	display:block !important;
-	align-items:center;
-	}
-    .container{
-    margin:0px 0px 0px 0px;
-    padding: 0px 0px 0px 0px;
-    }
-}
 
 #sidebar::-webkit-scrollbar-track
 {
@@ -116,7 +77,7 @@ hr {
 .container {
     padding-top: 50px;
 	width:100%;
-	max-width:1440px;
+	max-width:1280px;
 }
 .container-fluid{
     padding-top: 50px;
@@ -183,6 +144,23 @@ hr {
 .col-md-8.col-sm-12.content {
     padding: 0px;
 }
+h2.destacada {
+    position: absolute;
+    /* text-align: right; */
+    right: 25px;
+    font-size: 32px;
+    padding: 1rem;
+}
+@media only screen and (min-width: 1200px) {
+	.col-md-12.home.imagen-destacada{
+		padding:0px;
+	}
+    .col-md-12.home.imagen-destacada>a {
+    padding: 62.666667% 0 0 0 !important;
+    top: 17px !important;
+	}
+}
+
 /*************** PAGINA POST ****************/
 
 /*************************/
@@ -200,13 +178,13 @@ hr {
 	overflow: hidden;
 }
 .imagen-destacada>a>h1{
-	z-index: 88;
+	z-index: 1;
 	position: absolute;
 	top: 5px;
 	padding: 2rem;
 	color: #fff;
 	font-weight: bold;
-	font-size: 51px;
+	font-size: 38px;
 }
 .imagen-destacada>a>img{
 	position: absolute;
@@ -451,4 +429,43 @@ color:white;
 #footer-bottom a{
     color:white;
 	text-decoration:none;
+}
+@media only screen and (max-width: 1200px) {
+    .sidebar-noticia-desktop{
+        display:none;
+    }
+	.sidebar-noticia-smartphone
+	{
+		display:inline;
+		padding:0px;
+	}
+	
+}
+@media only screen and (max-width: 990px) {
+    .sidebar-right{
+        display:none !important;
+    }
+}
+@media only screen and (max-width: 768px) {
+	.imagen-destacada {
+    padding:0px !important;
+	}
+	.imagen-destacada>a>h1 {
+    font-size: 30px !important;
+	}
+	.texto-autor{
+	font-size:12px;
+	}
+	
+
+	.grupo-noticias {
+    margin-top: 20px;
+    margin-bottom: 20px;
+	display:block !important;
+	align-items:center;
+	}
+    .container{
+    margin:0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    }
 }

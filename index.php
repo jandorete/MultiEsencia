@@ -15,10 +15,12 @@
                     <section>
                         <div class="row grupo-noticias">
                             <div class="col-lg-8 col-lg-push-4 col-xs-12">
-                                <article>
-                                    <header style="position:absolute; right:20px; max-width:400px;"><h2 class="destacada"><a href="post.php"  style="color:white;">Lorem ipsum dolor sit amet</a></h2></header>
-                                    <a href="post.php"><img src="http://placehold.it/820x470" class="img-responsive center-block destacada"></a>
-                                </article>
+                                <div class="col-md-12 home imagen-destacada">
+									<a href="post.php">
+										<h1>Titulo de la noticia</h1>
+										<img alt="Prueba" src="http://placehold.it/820x470" class="img-responsive" />
+									</a>
+								</div>
                             </div>
                             <div style="padding: 0px;" class="col-lg-4 col-lg-pull-8 col-xs-12">
                                 <article class="col-lg-12 col-sm-6 col-xs-12">
@@ -60,10 +62,12 @@
                     <section>
                         <div class="row grupo-noticias">
                             <div class="col-lg-8 col-xs-12">
-                                <article>
-                                    <header style="position:absolute; right:20px; max-width:400px;"><h2 class="destacada"><a href="post.php"  style="color:white;">Lorem ipsum dolor sit amet</a></h2></header>
-                                    <a href="post.php"><img src="http://placehold.it/820x470" class="img-responsive destacada"></a>
-                                </article>
+                                <div class="col-md-12 home imagen-destacada">
+									<a href="post.php">
+										<h1>Titulo de la noticia</h1>
+										<img alt="Prueba" src="http://placehold.it/820x470" class="img-responsive" />
+									</a>
+								</div>
                             </div>
                             <div style="padding: 0px;" class="col-lg-4 col-xs-12">
                                 <article class="col-lg-12 col-sm-6 col-xs-12">

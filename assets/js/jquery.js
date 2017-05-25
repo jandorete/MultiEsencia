@@ -17,6 +17,7 @@ $("#sidebar-nav").addClass("justify-end");
 
     $("#sidebar-right").css('width', '300px');
     $("#main").removeClass('sidebar-right-close');
+	$("#categorias-lista").css('position', 'fixed');
 
 
   } else {
