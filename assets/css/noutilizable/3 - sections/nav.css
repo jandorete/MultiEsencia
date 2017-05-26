@@ -238,13 +238,7 @@
 	font-family:verdana;
     font-size:18px;
 }
-@media only screen and (max-width: 607px) {
-	#barraaceptacion {
-	height:105px;
-	font-family:verdana;
-    font-size:18px;
-	}
-}
+
 .inner {
 padding:1rem;
 }	

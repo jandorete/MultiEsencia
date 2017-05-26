@@ -7,7 +7,6 @@
     <body>
         <?php include 'header.php'; ?>
         <div class="container">
-            
             <div class="row">
                 <?php include 'navbar.php'; ?>
                 <div class="col-md-8 col-sm-12 content">
@@ -34,7 +33,7 @@
                             </div>
                         </div>                            
 
-                        <div style="border: 1px solid #E2E2E2; height: 1px; margin: 25px 0; width: 100%;"></div>
+                        <div class="separador"></div>
 
                         <div class="row grupo-noticias">
                             <article class="col-sm-4 col-xs-12">
@@ -52,14 +51,14 @@
                         </div>
 
                          <!-- anuncio -->
-                        <div style="background:black; margin-right:15px; margin-left:15px; height:150px; margin-top:25px; margin-bottom:25px;">
-                            <div style="background:#e2e2e2; position:relative; top:120px; width:115px; height:30px; padding:5px;">
+                        <div class="anuncio">
+                            <div class="letrero-anuncio">
                                 <i class="fa fa-bullhorn fa-fw" aria-hidden="true"></i>&nbsp; Anúnciate
                             </div>
                         </div>
                     </section>
-                    <div style="border: 1px solid #E2E2E2; height: 1px; margin: 25px 0; width: 100%;"></div>
-                    <section>
+                    <div class="separador"></div>
+                    <section class="">
                         <div class="row grupo-noticias">
                             <div class="col-lg-8 col-xs-12">
                                 <div class="col-md-12 home imagen-destacada">
@@ -81,7 +80,7 @@
                             </div>
                         </div>                            
 
-                        <div style="border: 1px solid #E2E2E2; height: 1px; margin: 25px 0; width: 100%;"></div>
+                        <div class="separador"></div>
 
                         <div class="row grupo-noticias">
                             <article class="col-sm-4 col-xs-12">
@@ -99,8 +98,8 @@
                         </div>
 
                          <!-- anuncio -->
-                        <div style="background:black; margin-right:15px; margin-left:15px; height:150px; margin-top:25px; margin-bottom:25px;">
-                            <div style="background:#e2e2e2; position:relative; top:120px; width:115px; height:30px; padding:5px;">
+                        <div class="anuncio">
+                            <div class="letrero-anuncio">
                                 <i class="fa fa-bullhorn fa-fw" aria-hidden="true"></i>&nbsp; Anúnciate
                             </div>
                         </div>

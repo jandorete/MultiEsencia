@@ -24,7 +24,7 @@
                     <div class="row">
                         <!-- SIDEBAR NOTICIA -->
                         <div class="sidebar-noticia-desktop col-md-3">
-							<div data-spy="affix" data-offset-top="362">
+							<div class="info-sidebar-post" data-spy="affix" data-offset-top="362">
 								<div class="info-autor">
 									<div class="info-autor-content">
 										<p class="texto-autor" style="text-align:right;"><b>Autor</b></p>
@@ -258,7 +258,16 @@
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>    
                                 </div-->
 								<div id="disqus_thread"></div>
-								<script>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                    <?php include 'sidebar.php'; ?>
+<!--                </div>-->
+            </div>
+        </div>
+		<script>
 									/**
 									 *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
 									 *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
@@ -279,15 +288,6 @@
 									})();
 								</script>
 								<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-                    <?php include 'sidebar.php'; ?>
-<!--                </div>-->
-            </div>
-        </div>
 		<?php include 'footer.php'; ?>
     </body>
 </html>

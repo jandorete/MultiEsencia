@@ -16,7 +16,7 @@
 				<div class="mas-buscado">
 					<span>Aplicaciones</span> <span>Google</span> <span>Samsung</span> <span>Juegos</span> <span>Especiales</span> <span>Google Play</span> <span>Actulizacion</span> <span>Sony</span> <span>Motorola</span> <span>HTC</span> <span>Fotografía</span> <span>Seguridad</span> <span>Root</span> <span>LG</span> <span>Opinión</span> <span>Personalización</span> <span>Tablet</span> <span>Trucos</span> <span>Móviles</span> <span>Nexus</span> <span>Facebook</span> <span>Rumores</span> <span>Filtraciones</span> <span>Ofertas</span> <span>Promociones</span> <span>Batería</span> <span>Desarrollo</span> <span>Whatsapp</span> <span>Musica</span> <span>Tablets</span>
 				</div>
-				<div data-spy="affix" data-offset-top="700" class="publicidad-sidebar-right">
+				<div data-spy="affix" data-offset-top="580" class="publicidad-sidebar-right">
 					<img src="https://placehold.it/250x600/000/fff" alt="" />
 
 				</div>

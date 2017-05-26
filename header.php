@@ -18,7 +18,7 @@
                 </li>
             </ul>
 
-            <div id="multiconos" class="multiconos-container bgcolor-multiconos" style="display: none;">
+            <div id="multiconos" class="animated slideInDown multiconos-container bgcolor-multiconos" style="display: none;">
                 <ul class="inline-flex justify-center items-center">
                     <li class="multiconos-iconos"><a href="#"><img id="apple" src="assets/img/Iconos Temáticas/A TuAppleMundo.png" alt="TuAppleMundo" /></a></li>
                     <!--<li class="multiconos-iconos"><a href="#"><img id="belleza" src="assets/img/Iconos Temáticas/A TuBellezaMundo.png" alt="TuBellezaMundo" /></a></li>    -->
