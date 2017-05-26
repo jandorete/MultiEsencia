@@ -1,6 +1,5 @@
-/*/* 0 - Tools */                                                       
-@import url("0 - tools/animate.css");                                
-@import url("0 - tools/font-awesome-4.6.2/css/font-awesome.css");    
-@import url("0 - tools/normalize.css");                              
-@import url("0 - tools/font.css");                    
+@import url("animate.css");                                
+@import url("font-awesome-4.6.2/css/font-awesome.css");    
+@import url("normalize.css");                              
+@import url("font.css");                    
 @import url("style.css");                                 
