@@ -1,12 +1,12 @@
         <nav id="nav" class="nav-container bgcolor-tutecnomundo">
             <ul id="nav-ul" class="inline-flex flex-row flex-wrap items-center justify-between">
                 <li class="nav-logo">
-                    <a href="../index2.php"><img src="../assets/img/Iconos Temáticas/D TuTecnoMundo.png" alt="TuTecnoMundo" height="80" /> 
+                    <a href="../inicio.php"><img src="../assets/img/Iconos Temáticas/D TuTecnoMundo.png" alt="TuTecnoMundo" height="80" /> 
                         <span class="texto-logo">TuTecnoMundo</span>
                     </a>
                 </li>
                 <li class="nav-link" >
-                    <a href="../index2.php" id="menu-btn">
+                    <a href="../inicio.php" id="menu-btn">
                         <i class="fa fa-home fa-lg" aria-hidden="true"></i>&nbsp; 
 						<span class="texto-cabecera">Inicio</span>
                     </a>

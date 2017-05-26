@@ -24,7 +24,7 @@
 					<div class="head">
 						<img style="width:102.95px;" src="assets/img/logo-multiesencia.png" alt=""/>
 					</div>
-				<form action="index2.php">
+				<form action="inicio.php">
 						<input type="text" class="text" value="Usuario" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Usuario';}" >
 						<input type="password" value="Contraseña" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Contraseña';}">
 						<div class="submit">
