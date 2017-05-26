@@ -56,7 +56,7 @@
 										</a>
 									</div>
 								</div>
-								<div style="border: 1px solid #E2E2E2; height: 1px; margin: 20px 0 0 0; width: 100%;" class="separador"></div>
+								<div class="separador"></div>
 								<br>
 								<div style="padding-top:0px;" class="info-autor">
 									<div class="info-autor-content">
@@ -228,7 +228,7 @@
                                     </div>
                                 </div>
                             </div-->
-                            <div style="border: 1px solid #E2E2E2; height: 1px; margin: 30px 0; width: 100%;" class="separador"></div>
+                           <div class="separador"></div>
 
                             <!-- COMENTARIO DE USUAIRO -->
                             <div class="comentarios row">
