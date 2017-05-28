@@ -320,3 +320,14 @@ select:focus {
     line-height: 40px;
     font-size: 20px;
 }
+@media (max-width: 375px){
+	.head {
+    top: -15%;
+    left: 87px;
+}
+@media (max-width: 320px){
+.head {
+    top: -19%;
+    left: 83px;
+}
+}
