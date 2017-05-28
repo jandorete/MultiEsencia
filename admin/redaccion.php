@@ -8,28 +8,28 @@
     </head>
     <body>
         <?php include 'header.php'; ?>
-		<div class="container">
+		<div class="container header-admin">
         
             <form>
                 <div class="row">
-                    <div class="col-xs-2">
+                    <div class="col-sm-2 col-xs-4">
                         <span class="h3">Crear Post</span>
                     </div>
-                    <div class="col-xs-4">                    
+                    <div class="col-sm-4 col-xs-8">                    
                         <select class="form-control input-redaccion">
                             <option>Categoría</option>
                         </select>
                     </div>
-                    <div class="col-xs-6">                    
+                    <div class="col-sm-6 col-xs-12">                    
                         <input type="text" class="form-control input-redaccion" placeholder="Título"/>
                     </div>
                 </div>
 
                 <div class="row">
-                    <div class="col-xs-6">                    
+                    <div class="col-sm-6 col-xs-12">                    
                         <input type="text" class="form-control input-redaccion" placeholder="Palabra clave"/>
                     </div>
-                    <div class="col-xs-6">                    
+                    <div class="col-sm-6 col-xs-12">                    
                         <input type="text" class="form-control input-redaccion" placeholder="URL"/>
                     </div>
                 </div>

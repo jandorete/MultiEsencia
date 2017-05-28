@@ -312,10 +312,6 @@ select:focus {
     box-shadow: none !important;   
 }
 
-.container {
-    margin-top: 50px;
-}
-
 .row-form {
     margin-bottom: 25px;
 }
