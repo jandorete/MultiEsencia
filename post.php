@@ -101,18 +101,19 @@
 							</div>
                         </div>
                         <div class="sidebar-noticia-smartphone col-xs-12">
-								<div style="justify-content:flex-start;" class="col-xs-8 info-autor">
-									<div>
-										<a href="#">
-											<img style="height:30px;" class="foto-autor" src="https://www.placecage.com/55/55" alt="...">
-										</a>
-									</div>
-									<div class="info-autor-content">
-										<p class="texto-autor" style="text-align:left; padding-left:0.5rem;"><b>Autor</b><br>Antonio Serna</p>
-										
-									</div>
+							<div style="justify-content:flex-start;" class="col-xs-7 info-autor">
+								<div>
+									<a href="#">
+										<img style="height:30px;" class="foto-autor" src="https://www.placecage.com/55/55" alt="...">
+									</a>
 								</div>
-								<div class="col-xs-2 info-autor">
+								<div class="info-autor-content">
+									<p class="texto-autor" style="text-align:left; padding-left:0.5rem;"><b>Autor</b><br>Antonio Serna</p>
+									
+								</div>
+							</div>
+							<div class="col-xs-5">
+								<div class="col-xs-6 info-autor">
 									<div class="info-autor-content">
 										<p class="texto-autor">27K</p>
 									</div>
@@ -122,7 +123,7 @@
 										</a>
 									</div>
 								</div>
-								<div class="col-xs-2 info-autor">
+								<div class="col-xs-6 info-autor">
 									<div class="info-autor-content">
 										<p class="texto-autor">2</p>
 									</div>
@@ -133,10 +134,11 @@
 									</div>
 								</div>
 								<br>
+							</div>
                         </div>
                         
 						<!-- CONTENEDOR NOTICIA -->
-                        <div style="padding:1rem;" class="col-xs-12 col-lg-9">
+                        <div class="col-xs-12 col-lg-9 contenedor-noticia">
                             <!-- BANNER PUBLI -->
                             <div style="background:black; height:150px; width:100%;">
                                 <div style="background:#e2e2e2; position:relative; top:120px; width:115px; height:30px; padding:5px;">
@@ -161,7 +163,7 @@
                                     <i class="fa fa-bullhorn fa-fw" aria-hidden="true"></i>&nbsp; Anúnciate</a>
                                 </div>
                             </div>
-							<p style="font-size:24px; font-weight:600; padding-top:1rem;" >Recomendado por el autor</p>
+							<p style="font-size:24px; font-weight:600; padding-top:2rem;" >Recomendado por el autor</p>
                             <div class="row grupo-noticias">
 								<article class="col-sm-4 col-xs-12">
 									<header class="titular"><h2><a href="post.php">Lorem ipsum dolor sit amet</a></h2></header>
@@ -191,13 +193,11 @@
 										<a href="post.php"><img src="http://placehold.it/820x470" class="img-responsive"></a>
 								</article>
 							</div>
-                            <br><br>
                             <div style="background:black; height:150px; width:100%;">
                                 <div style="background:#e2e2e2; position:relative; top:120px; width:115px; height:30px; padding:5px;">
                                     <i class="fa fa-bullhorn fa-fw" aria-hidden="true"></i>&nbsp; Anúnciate</a>
                                 </div>
                             </div>
-                            <br><br>
                             <!--div class="row">
                                 <div class="col-md-6">
                                     <h2>2 Comentarios</h2>
@@ -228,7 +228,7 @@
                                     </div>
                                 </div>
                             </div-->
-                           <div class="separador"></div>
+                           <div class="row separador"></div>
 
                             <!-- COMENTARIO DE USUAIRO -->
                             <div class="comentarios row">

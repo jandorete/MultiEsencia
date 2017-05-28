@@ -5,8 +5,9 @@ ELEMENTOS GENERALES
 .affix {top: 50px;}
 
 /* BODY */
+span.texto-logo {font-family: NexaBold;}
 html {font-size: 100%;  -webkit-text-size-adjust: 100%; color: #333;}
-body {font-family: 'Roboto', sans-serif; font-weight: 400;line-height: 1.4;}
+body {font-family: 'Open Sans', sans-serif; font-weight: 400;line-height: 1.4;}
 p  {font-size: 1em;}
 h1 {font-size: 3em; margin-bottom: 3.5rem; /*Doblamos le valor base para un espaciado mayor (1.75 * 2) = 3.5*/}
 h2 {font-size: 14px; font-weight: 700; margin-bottom: 0px; margin-top: 0px;}
@@ -222,11 +223,14 @@ PÁGINAS Y POSTS
 -------------------------------------------------------------- */
 /* ASPECTOS ESENCIALES ARTICULO*/
 .content {padding: 0px;}
+.contenedor-noticia{padding:1rem;}
 .grupo-noticias {margin-top: 20px;margin-bottom: 20px;}
 .titular {margin-top: 10px;margin-bottom: 10px;}
 .img-noticia {margin-bottom: 10px;}
 .destacada {font-size: 2em;text-align: right;}
 h2.destacada {position: absolute;right: 25px;font-size: 32px;padding: 1rem;}
+.row .grupo-noticias{margin-left:-15px; margin-right:-15px;}
+.row .separador{margin-left:0px; margin-right:0px;}
 
 /* IMAGEN DESTACADA POST */
 .imagen-destacada{max-height: 80vh;}
@@ -248,7 +252,7 @@ h2.destacada {position: absolute;right: 25px;font-size: 32px;padding: 1rem;}
 .info-autor div a i:hover{color:#cacaca;}
 
 /* PUBLICIDAD */
-.anuncio{background:black; margin-left:15px; margin-right:15px; height:150px; margin-top:25px; margin-bottom:25px;}
+.anuncio{background:black; height:150px; margin-top:25px; margin-bottom:25px;}
 .letrero-anuncio{background:#e2e2e2; position:relative; top:120px; width:115px; height:30px; padding:5px;}
 
 /* SEPARADOR */
@@ -324,7 +328,10 @@ RESPONSIVE STYLES
 @media only screen and (max-width: 1200px) {
     .sidebar-noticia-desktop{display:none;}	
 	.titular {margin-bottom: 20px;margin-top: 20px;}
-	.sidebar-noticia-smartphone	{display:inline;padding:0px;}
+	.sidebar-noticia-smartphone	{display:flex; align-items:center; padding:0px;}
+	.contenedor-noticia{padding-top:5px;}
+	.info-autor {padding-top: 0px;display: flex;justify-content: flex-end;align-items: center; padding-right:0px;}
+	.info-autor-content {position: relative;top: 5px;padding-right: 5px;}
 }
 @media only screen and (min-width: 1200px) {
 	.col-md-12.home.imagen-destacada{padding:0px;}   

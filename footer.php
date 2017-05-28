@@ -1,5 +1,5 @@
 <!--//BLOQUE COOKIES-->
-<div class="row" id="barraaceptacion" style="display: block;">
+<div class="row animated fadeIn" id="barraaceptacion" style="display: block;">
     <div class="col-md-12 inner">
         Nos encanta personalizar su experiencia de usuario usando cookies &nbsp;
 		<a style="text-decoration:none; color:#fff;" href="javascript:void(0);" onclick="PonerCookie();" id="menu-btn--icon" class="fa fa-lg fa-times" aria-hidden="true"></a>
@@ -51,9 +51,10 @@
     }
     function PonerCookie(){
         setCookie('tiendaaviso','1',365);
-        document.getElementById("barraaceptacion").style.display="none";
+		$("#barraaceptacion").css('display', 'none');
     }
-    
+	
+	
     // funcion que se encarga de ajustar el alto del sidebar. se llamara en ready() y en resize()
     function ajustarAlto() {
         var height = $('.content').height();

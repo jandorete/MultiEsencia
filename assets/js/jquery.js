@@ -109,6 +109,7 @@ $(document).ready(function(){
   });
 });*/
 
+
 var lastScrollTop = 0;
 $(window).scroll(function (event) {
 
@@ -224,3 +225,4 @@ $("#fama").mouseover(function() {
   }).mouseout(function() {
     $("#windows").attr('src', 'assets/img/Iconos Temáticas/A TuWindowsMundo.png');
   });
+
