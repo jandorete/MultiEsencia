@@ -1,4 +1,4 @@
-        <nav id="nav" class="nav-container bgcolor-tutecnomundo">
+        <nav id="nav" class="nav-container bgcolor-tutecnomundo" style="z-index: 9999;">
             <ul id="nav-ul" class="inline-flex flex-row flex-wrap items-center justify-between">
                 <li class="nav-logo">
                     <a href="../inicio.php"><img src="../assets/img/Iconos Temáticas/D TuTecnoMundo.png" alt="TuTecnoMundo" height="80" /> 
