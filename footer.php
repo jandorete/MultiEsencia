@@ -17,7 +17,6 @@
 								  TuTecnoMundo © 2017    -   <a href="https://www.multiesencia.com/contacto.html" target="_blank">Contacto</a>   -   <a href="https://www.multiesencia.com/trabajo.html" target="_blank">Trabajo</a>   -   <a href="https://www.multiesencia.com/publicidad.html" target="_blank">Publicidad</a>   -   <a href="https://www.multiesencia.com/legal.html" target="_blank">Legal</a></p>
 					</div>
 				</div>
-			</div>
 	</section>
 </footer>
 <script>
@@ -69,9 +68,11 @@
         ajustarAlto();
     });
     
-    $(window).ready(function() {
+    $('document').ready(function() {
         ajustarAlto();
-    })
+    });
+    
+    window.setTimeout(ajustarAlto, 2000);
     
 </script>
 <!--//FIN BLOQUE COOKIES-->
