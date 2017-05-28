@@ -84,7 +84,7 @@ form p a:hover {
 	text-align:left;
 	position: relative;
 	width:100%;
-	padding:3%;
+	padding:25px;
 	background:#D3D3D3;
 	margin-bottom: 6%;
 	font-family: 'Open Sans', sans-serif;
@@ -96,6 +96,12 @@ form p a:hover {
 	border-radius: 5px;
 	border:1px solid #DED6D6;
 	-webkit-appearance:none;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding:25px;
 }
  input[type="text"]:hover, input[type="password"]:hover{
  	border:1px solid #949494;
