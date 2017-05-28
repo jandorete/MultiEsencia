@@ -296,6 +296,31 @@ input.text {
     border-radius: 0px !important;
 }
 
+input:focus {
+    outline: none !important;
+    border-color: #65b853 !important;
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+select:focus {
+    outline: none !important;
+    border-color: #65b853 !important;
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;   
+}
+
 .container {
     margin-top: 50px;
+}
+
+.row-form {
+    margin-bottom: 25px;
+}
+
+.pendiente {
+    line-height: 40px;
+    font-size: 20px;
 }
