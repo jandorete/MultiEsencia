@@ -96,10 +96,11 @@
                     },
                     axisX:{
                         title: "",
-                        gridThickness: 1
+                        gridThickness: 0
                     },
                     axisY: {
-                        title: ""
+                        title: "",
+                        gridThickness: 0
                     },
                     data: [{
                         type: "splineArea",
