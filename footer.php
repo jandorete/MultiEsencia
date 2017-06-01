@@ -19,6 +19,15 @@
 				</div>
 	</section>
 </footer>
+
+<script src="dist/selection-sharer.js"></script>
+<script>
+    $('p').selectionSharer();
+</script>
+<script type="text/javascript" src="assets/js/jquery.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jasny-bootstrap/3.1.3/js/jasny-bootstrap.min.js"></script>
+
 <script>
     function getCookie(c_name){
         var c_value = document.cookie;
@@ -77,10 +86,3 @@
     
 </script>
 <!--//FIN BLOQUE COOKIES-->
-
-<script src="dist/selection-sharer.js"></script>
-<script>
-    $('p').selectionSharer();
-</script>
-<script type="text/javascript" src="assets/js/jquery.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>

@@ -1,4 +1,4 @@
-<aside id="sidebar-nav" class="sidebar flex justify-end items-start right-align bgcolor-sidebar">
+<div id="navbar" class="navmenu navmenu-default navmenu-fixed-left offcanvas">
     <div id="categorias-lista">
         <a href="#" class="categoria-sidebar bgcolor-tutecnomundo">
             <div class="shape bgcolor-tutecnomundo">Noticias</div>
@@ -27,6 +27,7 @@
         <a href="#" class="link-sidebar linkcolor-tutecnomundo">Publicidad<i class="fa fa-bullhorn textcolor-tutecnomundo pl2" aria-hidden="true"></i></a>
         <a href="#" class="link-sidebar linkcolor-tutecnomundo">Legal<i class="fa fa-book textcolor-tutecnomundo pl2" aria-hidden="true"></i></a>
     </div>
+<!--
     <div id="sidebar-search">
         <form class="" action="" method="post">
             <input type="search" name="name" value="" id="search-box" placeholder="Escribe aquí tu busqueda">
@@ -36,4 +37,5 @@
 				<a href="post.php"><img src="http://placehold.it/820x470" class="img-responsive"></a>
 		</article>
     </div>
-</aside>
+-->
+</div>

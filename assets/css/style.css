@@ -169,6 +169,7 @@ LAYOUT
 .sidebar::scrollbar-thumb{	background-color: #fff;}
 .sidebar {overflow: hidden;}
 #sidebar-nav {width: 0px;top: 50px;z-index: 2;position: absolute;height: 100%;left: 0;background-color: #efefef;transition: 0.5s;overflow-x: hidden;font-size: 1.2em;-webkit-box-shadow: inset -1px 0px 11px 1px rgba(0,0,0,0.21);-moz-box-shadow: inset -1px 0px 11px 1px rgba(0,0,0,0.21);box-shadow: inset -1px 0px 11px 1px rgba(0,0,0,0.21);}
+#navbar {background-color: #efefef;font-size: 1.2em;-webkit-box-shadow: inset -1px 0px 11px 1px rgba(0,0,0,0.21);-moz-box-shadow: inset -1px 0px 11px 1px rgba(0,0,0,0.21);box-shadow: inset -1px 0px 11px 1px rgba(0,0,0,0.21);}
 #sidebar-nav > div {margin-bottom: 125px;}
 .sidebar--open {width: 310px !important;}
 .sidebar--open--main {margin-left: 300px;}
@@ -216,7 +217,7 @@ NAVEGACIÓN
 .multiconos-container {width: 100%;z-index: 2;top: 0;left: 0;text-align: center;}
 .multiconos-container ul {padding: 0;border-bottom: none;margin: 0;width: 100%;list-style-type: none;}
 .multiconos-container ul li {padding: 0.5rem;}
-.multiconos-iconos img {vertical-align: middle;height: 35px;}#categorias-lista {display: none;}
+.multiconos-iconos img {vertical-align: middle;height: 35px;}
 
 /* --------------------------------------------------------------
 PÁGINAS Y POSTS

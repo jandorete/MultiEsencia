@@ -1,7 +1,7 @@
-        <nav id="nav" class="nav-container bgcolor-tutecnomundo">
+        <div id="nav" class="nav-container bgcolor-tutecnomundo">
             <ul id="nav-ul" class="inline-flex flex-row flex-wrap items-center justify-between">
                 <li class="nav-link" >
-                    <a href="javascript:void(0)" id="menu-btn">
+                    <a href="#" id="menu-btn" data-toggle="offcanvas" data-target="#navbar" data-canvas="body">
                         <i id="menu-btn--icon" class="fa fa-bars fa-lg" aria-hidden="true"></i> <span class="texto-cabecera">Menú</span>
                     </a>
                 </li>
@@ -37,7 +37,7 @@
                     <li class="multiconos-iconos"><a href="#"><img id="windows" src="assets/img/Iconos Temáticas/A TuWindowsMundo.png" alt="TuWindowsMundo" /></a></li>
                 </ul>
             </div>
-        </nav>
+        </div>
 		
         <!--<nav id="subnav" class="subnav-container bgcolor-tutecnomundo">
             <div class="inline-flex items-center justify-center">

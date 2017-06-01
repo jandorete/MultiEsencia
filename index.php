@@ -5,10 +5,10 @@
         <?php include 'head.php'; ?>
 	</head>
     <body>
+        <?php include 'navbar.php'; ?>
         <?php include 'header.php'; ?>
         <div class="container">
             <div class="row">
-                <?php include 'navbar.php'; ?>
                 <div class="col-md-8 col-sm-12 content">
                     
                     <section>
