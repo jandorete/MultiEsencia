@@ -1,5 +1,5 @@
-<div id="navbar" class="navmenu navmenu-default navmenu-fixed-left offcanvas">
-    <div id="categorias-lista">
+<div id="navbar" class="sidebar navmenu navmenu-default navmenu-fixed-left offcanvas">
+    <div id="categorias-lista pulse animated">
         <a href="#" class="categoria-sidebar bgcolor-tutecnomundo">
             <div class="shape bgcolor-tutecnomundo">Noticias</div>
         </a>
@@ -22,10 +22,10 @@
         <a href="#" class="categoria-sidebar bgcolor-tutecnomundo">
             <div class="shape bgcolor-tutecnomundo">Reflexiones</div>
         </a>
-        <a href="#" class="link-sidebar linkcolor-tutecnomundo">Contacto<i class="fa fa-envelope textcolor-tutecnomundo pl2" aria-hidden="true"></i></a>
-        <a href="#" class="link-sidebar linkcolor-tutecnomundo">Trabajo<i class="fa fa-cog textcolor-tutecnomundo pl2" aria-hidden="true"></i></a>
-        <a href="#" class="link-sidebar linkcolor-tutecnomundo">Publicidad<i class="fa fa-bullhorn textcolor-tutecnomundo pl2" aria-hidden="true"></i></a>
-        <a href="#" class="link-sidebar linkcolor-tutecnomundo">Legal<i class="fa fa-book textcolor-tutecnomundo pl2" aria-hidden="true"></i></a>
+        <a href="#" class="link-sidebar linkcolor-tutecnomundo">Contacto&nbsp;<i class="fa fa-envelope textcolor-tutecnomundo pl2" aria-hidden="true"></i></a>
+        <a href="#" class="link-sidebar linkcolor-tutecnomundo">Trabajo&nbsp;<i class="fa fa-cog textcolor-tutecnomundo pl2" aria-hidden="true"></i></a>
+        <a href="#" class="link-sidebar linkcolor-tutecnomundo">Publicidad&nbsp;<i class="fa fa-bullhorn textcolor-tutecnomundo pl2" aria-hidden="true"></i></a>
+        <a href="#" class="link-sidebar linkcolor-tutecnomundo">Legal&nbsp;<i class="fa fa-book textcolor-tutecnomundo pl2" aria-hidden="true"></i></a>
     </div>
 <!--
     <div id="sidebar-search">
