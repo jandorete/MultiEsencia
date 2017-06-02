@@ -11,7 +11,7 @@
                     </a>
                 </li>
                 <li class="nav-link">
-                    <a href="javascript:void(0)" id="search-btn">
+                    <a href="#" id="search-btn" data-toggle="offcanvas" data-target="#navbar2" data-canvas="body">
                         <span class="texto-cabecera">Buscar</span>
                         <i class="fa fa-search fa-lg" aria-hidden="true"></i>
                     </a>
